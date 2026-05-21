@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { DM_Sans, Space_Mono } from 'next/font/google'
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import './globals.css'
@@ -19,6 +19,15 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: 'Better Bus Brunei',
   description: 'Public bus route discovery tool for Brunei. Find which bus to take — not affiliated with JPD.',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'black-translucent',
+    title: 'BetterBus',
+  },
+}
+
+export const viewport: Viewport = {
+  themeColor: '#F5C518',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
