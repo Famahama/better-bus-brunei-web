@@ -1,0 +1,4748 @@
+[
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "01A_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "01A_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "01A_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "01A_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "01A_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "01A_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "01A_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "01A_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "01A_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "01A_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "01A_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "01A_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "01A_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "01A_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "01A_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "01A_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "01A_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "01A_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "01A_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "01A_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "01A_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "20_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "20_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "20_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "20_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "20_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "20_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "20_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "20_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "20_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "20_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "20_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "20_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "20_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "20_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "20_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "20_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "20_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "20_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "20_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "20_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "20_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "20_→Batu Bersurat",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "20_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "01C_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "01C_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "01C_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "01C_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "01C_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "01C_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "01C_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "01C_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "01C_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "01C_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "01C_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "01C_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "01C_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "01C_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "01C_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "01C_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "01C_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "01C_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "01C_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "01C_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "01C_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "01C_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "01C_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "01C_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "01C_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "21_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "21_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "21_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "21_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "21_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "21_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "21_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "21_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "21_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "21_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "21_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "21_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "21_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "21_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "21_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "21_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "21_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "21_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "21_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "21_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "21_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "21_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "21_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "21_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "21_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "21_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "21_→Kg. Tungku",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "21_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "22_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "22_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "22_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "22_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "22_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "22_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "22_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "22_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "22_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "22_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "22_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "22_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "22_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "22_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "22_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "22_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "22_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "22_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "22_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "22_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "22_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "22_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "22_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "22_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "22_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "22_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "22_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "22_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "22_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "22_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "22_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "22_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "22_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "22_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "22_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "23_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "23_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "23_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "23_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "23_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "23_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "23_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "23_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "23_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "23_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "23_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "23_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "23_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "23_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "23_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "23_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "23_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "23_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "23_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "23_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "23_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "23_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "23_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "23_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "23_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "23_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "23_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "23_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "23_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "24_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "24_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "24_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "24_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "24_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "24_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "24_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "24_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "24_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "24_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "24_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "24_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "24_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "24_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "24_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "24_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "24_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "24_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "24_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "24_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "24_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "24_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "24_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "24_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "24_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "24_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "24_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "24_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "24_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "24_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "24_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "24_→RPN Lambak Kanan",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "24_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "34_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "34_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "34_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "34_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "34_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "34_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "34_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "34_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "34_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "34_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "34_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "34_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "34_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "34_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "34_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "34_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "34_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "34_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "34_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "34_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "34_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "34_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "34_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "34_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "34_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "34_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "34_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "34_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "34_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "35_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "35_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "35_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "35_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "35_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "35_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "35_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "35_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "35_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "35_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "35_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "35_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "35_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "35_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "35_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "35_→Kg Sungai Akar",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "35_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "36_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "36_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "36_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "36_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "36_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "36_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "36_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "36_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "36_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "36_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "36_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "36_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "36_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "36_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "36_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "36_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "36_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "36_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "36_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "36_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "36_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "36_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "36_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "36_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "36_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "36_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "36_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "36_ICC/Stadium→Airport",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "36_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "37_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "37_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "37_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "37_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "37_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "37_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "37_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "37_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "37_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "37_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "37_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "37_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "37_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "37_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "37_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "37_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "37_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "37_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "37_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "37_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "37_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "37_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "37_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "37_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "37_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "37_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "37_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "37_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "37_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "37_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "37_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "37_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "37_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "37_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "37_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "37_→Pekan Muara",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "37_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "38_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "38_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "38_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "38_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "38_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "38_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "38_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "38_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "38_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "38_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "38_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "38_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "38_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "38_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "38_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "38_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "38_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "38_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "38_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "38_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "38_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "38_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "38_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "38_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "38_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "38_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "38_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "38_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "38_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "38_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "38_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "38_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "38_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "38_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "38_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "38_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:36:00",
+    "departure_time": "00:36:00",
+    "stop_id": "38_37",
+    "stop_sequence": "37"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:37:00",
+    "departure_time": "00:37:00",
+    "stop_id": "38_38",
+    "stop_sequence": "38"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:38:00",
+    "departure_time": "00:38:00",
+    "stop_id": "38_39",
+    "stop_sequence": "39"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:39:00",
+    "departure_time": "00:39:00",
+    "stop_id": "38_40",
+    "stop_sequence": "40"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:40:00",
+    "departure_time": "00:40:00",
+    "stop_id": "38_41",
+    "stop_sequence": "41"
+  },
+  {
+    "trip_id": "38_→Pekan Muara",
+    "arrival_time": "00:41:00",
+    "departure_time": "00:41:00",
+    "stop_id": "38_42",
+    "stop_sequence": "42"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "39_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "39_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "39_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "39_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "39_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "39_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "39_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "39_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "39_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "39_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "39_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "39_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "39_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "39_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "39_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "39_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "39_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "39_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "39_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "39_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "39_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "39_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "39_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "39_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "39_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "39_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "39_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "39_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "39_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "39_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "39_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "39_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "39_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "39_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "39_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "39_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:36:00",
+    "departure_time": "00:36:00",
+    "stop_id": "39_37",
+    "stop_sequence": "37"
+  },
+  {
+    "trip_id": "39_→Pekan Muara",
+    "arrival_time": "00:37:00",
+    "departure_time": "00:37:00",
+    "stop_id": "39_38",
+    "stop_sequence": "38"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "42_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "42_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "42_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "42_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "42_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "42_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "42_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "42_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "42_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "42_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "42_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "42_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "42_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "42_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "42_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "42_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "42_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "42_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "42_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "42_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "42_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "42_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "42_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "42_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "42_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "42_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "42_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "42_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "42_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "42_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "42_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "42_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "42_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "42_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "42_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "42_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:36:00",
+    "departure_time": "00:36:00",
+    "stop_id": "42_37",
+    "stop_sequence": "37"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:37:00",
+    "departure_time": "00:37:00",
+    "stop_id": "42_38",
+    "stop_sequence": "38"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:38:00",
+    "departure_time": "00:38:00",
+    "stop_id": "42_39",
+    "stop_sequence": "39"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:39:00",
+    "departure_time": "00:39:00",
+    "stop_id": "42_40",
+    "stop_sequence": "40"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:40:00",
+    "departure_time": "00:40:00",
+    "stop_id": "42_41",
+    "stop_sequence": "41"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:41:00",
+    "departure_time": "00:41:00",
+    "stop_id": "42_42",
+    "stop_sequence": "42"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:42:00",
+    "departure_time": "00:42:00",
+    "stop_id": "42_43",
+    "stop_sequence": "43"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:43:00",
+    "departure_time": "00:43:00",
+    "stop_id": "42_44",
+    "stop_sequence": "44"
+  },
+  {
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:44:00",
+    "departure_time": "00:44:00",
+    "stop_id": "42_45",
+    "stop_sequence": "45"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "44_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "44_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "44_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "44_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "44_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "44_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "44_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "44_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "44_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "44_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "44_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "44_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "44_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "44_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "44_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "44_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "44_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "44_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "44_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "44_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "44_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "44_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "44_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "44_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "44_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "44_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "44_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "44_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "45_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "45_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "45_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "45_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "45_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "45_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "45_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "45_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "45_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "45_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "45_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "45_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "45_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "45_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "45_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "45_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "45_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "45_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "45_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "45_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "45_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "45_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "45_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "45_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "45_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "45_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "45_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "45_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "45_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "45_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "49_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "49_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "49_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "49_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "49_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "49_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "49_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "49_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "49_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "49_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "49_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "49_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "49_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "49_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "49_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "49_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "49_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "49_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "49_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "49_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "49_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "49_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "49_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "49_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "49_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "49_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "49_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "49_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "49_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "49_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "55_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "55_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "55_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "55_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "55_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "55_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "55_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "55_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "55_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "55_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "55_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "55_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "55_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "55_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "55_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "55_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "55_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "55_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "55_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "55_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "55_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "55_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "55_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "55_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "55_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "55_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "55_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "55_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "55_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "55_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "55_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "55_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "55_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "55_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "55_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "55_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:36:00",
+    "departure_time": "00:36:00",
+    "stop_id": "55_37",
+    "stop_sequence": "37"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:37:00",
+    "departure_time": "00:37:00",
+    "stop_id": "55_38",
+    "stop_sequence": "38"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:38:00",
+    "departure_time": "00:38:00",
+    "stop_id": "55_39",
+    "stop_sequence": "39"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:39:00",
+    "departure_time": "00:39:00",
+    "stop_id": "55_40",
+    "stop_sequence": "40"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:40:00",
+    "departure_time": "00:40:00",
+    "stop_id": "55_41",
+    "stop_sequence": "41"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:41:00",
+    "departure_time": "00:41:00",
+    "stop_id": "55_42",
+    "stop_sequence": "42"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:42:00",
+    "departure_time": "00:42:00",
+    "stop_id": "55_43",
+    "stop_sequence": "43"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:43:00",
+    "departure_time": "00:43:00",
+    "stop_id": "55_44",
+    "stop_sequence": "44"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:44:00",
+    "departure_time": "00:44:00",
+    "stop_id": "55_45",
+    "stop_sequence": "45"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:45:00",
+    "departure_time": "00:45:00",
+    "stop_id": "55_46",
+    "stop_sequence": "46"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:46:00",
+    "departure_time": "00:46:00",
+    "stop_id": "55_47",
+    "stop_sequence": "47"
+  },
+  {
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "arrival_time": "00:47:00",
+    "departure_time": "00:47:00",
+    "stop_id": "55_48",
+    "stop_sequence": "48"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "56_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "56_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "56_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "56_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "56_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "56_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "56_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "56_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "56_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "56_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "56_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "56_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "56_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "56_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "56_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "56_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "56_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "56_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "56_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "56_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "56_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "56_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "56_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "56_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "56_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "56_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "56_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "56_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "56_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "56_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "56_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "56_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "56_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "56_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "56_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "56_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:36:00",
+    "departure_time": "00:36:00",
+    "stop_id": "56_37",
+    "stop_sequence": "37"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:37:00",
+    "departure_time": "00:37:00",
+    "stop_id": "56_38",
+    "stop_sequence": "38"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:38:00",
+    "departure_time": "00:38:00",
+    "stop_id": "56_39",
+    "stop_sequence": "39"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:39:00",
+    "departure_time": "00:39:00",
+    "stop_id": "56_40",
+    "stop_sequence": "40"
+  },
+  {
+    "trip_id": "56_→Kg Lugu",
+    "arrival_time": "00:40:00",
+    "departure_time": "00:40:00",
+    "stop_id": "56_41",
+    "stop_sequence": "41"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "57_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "57_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "57_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "57_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "57_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "57_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "57_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "57_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "57_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "57_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "57_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "57_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "57_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "57_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "57_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "57_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "57_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "57_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "57_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "57_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "57_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "57_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "57_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "57_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "57_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "57_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "57_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "57_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "57_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "57_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "57_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "57_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "57_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "57_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "57_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "57_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "58_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "58_2",
+    "stop_sequence": "2"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:02:00",
+    "departure_time": "00:02:00",
+    "stop_id": "58_3",
+    "stop_sequence": "3"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:03:00",
+    "departure_time": "00:03:00",
+    "stop_id": "58_4",
+    "stop_sequence": "4"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:04:00",
+    "departure_time": "00:04:00",
+    "stop_id": "58_5",
+    "stop_sequence": "5"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:05:00",
+    "departure_time": "00:05:00",
+    "stop_id": "58_6",
+    "stop_sequence": "6"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:06:00",
+    "departure_time": "00:06:00",
+    "stop_id": "58_7",
+    "stop_sequence": "7"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:07:00",
+    "departure_time": "00:07:00",
+    "stop_id": "58_8",
+    "stop_sequence": "8"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:08:00",
+    "departure_time": "00:08:00",
+    "stop_id": "58_9",
+    "stop_sequence": "9"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:09:00",
+    "departure_time": "00:09:00",
+    "stop_id": "58_10",
+    "stop_sequence": "10"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:10:00",
+    "departure_time": "00:10:00",
+    "stop_id": "58_11",
+    "stop_sequence": "11"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:11:00",
+    "departure_time": "00:11:00",
+    "stop_id": "58_12",
+    "stop_sequence": "12"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:12:00",
+    "departure_time": "00:12:00",
+    "stop_id": "58_13",
+    "stop_sequence": "13"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:13:00",
+    "departure_time": "00:13:00",
+    "stop_id": "58_14",
+    "stop_sequence": "14"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:14:00",
+    "departure_time": "00:14:00",
+    "stop_id": "58_15",
+    "stop_sequence": "15"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:15:00",
+    "departure_time": "00:15:00",
+    "stop_id": "58_16",
+    "stop_sequence": "16"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:16:00",
+    "departure_time": "00:16:00",
+    "stop_id": "58_17",
+    "stop_sequence": "17"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:17:00",
+    "departure_time": "00:17:00",
+    "stop_id": "58_18",
+    "stop_sequence": "18"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:18:00",
+    "departure_time": "00:18:00",
+    "stop_id": "58_19",
+    "stop_sequence": "19"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:19:00",
+    "departure_time": "00:19:00",
+    "stop_id": "58_20",
+    "stop_sequence": "20"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:20:00",
+    "departure_time": "00:20:00",
+    "stop_id": "58_21",
+    "stop_sequence": "21"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:21:00",
+    "departure_time": "00:21:00",
+    "stop_id": "58_22",
+    "stop_sequence": "22"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:22:00",
+    "departure_time": "00:22:00",
+    "stop_id": "58_23",
+    "stop_sequence": "23"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:23:00",
+    "departure_time": "00:23:00",
+    "stop_id": "58_24",
+    "stop_sequence": "24"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:24:00",
+    "departure_time": "00:24:00",
+    "stop_id": "58_25",
+    "stop_sequence": "25"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:25:00",
+    "departure_time": "00:25:00",
+    "stop_id": "58_26",
+    "stop_sequence": "26"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:26:00",
+    "departure_time": "00:26:00",
+    "stop_id": "58_27",
+    "stop_sequence": "27"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:27:00",
+    "departure_time": "00:27:00",
+    "stop_id": "58_28",
+    "stop_sequence": "28"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:28:00",
+    "departure_time": "00:28:00",
+    "stop_id": "58_29",
+    "stop_sequence": "29"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:29:00",
+    "departure_time": "00:29:00",
+    "stop_id": "58_30",
+    "stop_sequence": "30"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:30:00",
+    "departure_time": "00:30:00",
+    "stop_id": "58_31",
+    "stop_sequence": "31"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:31:00",
+    "departure_time": "00:31:00",
+    "stop_id": "58_32",
+    "stop_sequence": "32"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:32:00",
+    "departure_time": "00:32:00",
+    "stop_id": "58_33",
+    "stop_sequence": "33"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:33:00",
+    "departure_time": "00:33:00",
+    "stop_id": "58_34",
+    "stop_sequence": "34"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:34:00",
+    "departure_time": "00:34:00",
+    "stop_id": "58_35",
+    "stop_sequence": "35"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:35:00",
+    "departure_time": "00:35:00",
+    "stop_id": "58_36",
+    "stop_sequence": "36"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:36:00",
+    "departure_time": "00:36:00",
+    "stop_id": "58_37",
+    "stop_sequence": "37"
+  },
+  {
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "arrival_time": "00:37:00",
+    "departure_time": "00:37:00",
+    "stop_id": "58_38",
+    "stop_sequence": "38"
+  },
+  {
+    "trip_id": "EX_BSB→Airport",
+    "arrival_time": "00:00:00",
+    "departure_time": "00:00:00",
+    "stop_id": "EX_1",
+    "stop_sequence": "1"
+  },
+  {
+    "trip_id": "EX_BSB→Airport",
+    "arrival_time": "00:01:00",
+    "departure_time": "00:01:00",
+    "stop_id": "EX_2",
+    "stop_sequence": "2"
+  }
+]

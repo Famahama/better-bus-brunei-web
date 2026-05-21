@@ -1,0 +1,4130 @@
+[
+  {
+    "stop_id": "01A_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_3",
+    "stop_name": "J. Kebangsaan (Supasave / Mabohai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_4",
+    "stop_name": "J. Menteri Besar (Immigration / Labour)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_5",
+    "stop_name": "J. Menteri Besar (Custom / KHEU / Audit)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_6",
+    "stop_name": "Airport Lama (Fire & Rescue/Dental Clinic)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_7",
+    "stop_name": "Airport Lama (TelBru / Building JKR)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_8",
+    "stop_name": "J. Gadong (Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_9",
+    "stop_name": "J. Gadong (Shell Gadong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_10",
+    "stop_name": "J. Gadong (Under SHHB Bypass-NBT)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_11",
+    "stop_name": "Centrepoint Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_12",
+    "stop_name": "Mall Gadong (Rizqun Hotel)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_13",
+    "stop_name": "Tamu Gadong (Gadong Market)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_14",
+    "stop_name": "J. Kiulap (Masjid Jame' Asr-Spg 127)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_15",
+    "stop_name": "J. Kiulap (Embassy Japan@Spg 122)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_16",
+    "stop_name": "J. Kiulap (Spg 106)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_17",
+    "stop_name": "J. Putera Al-Muhtadee Billah (RIPAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_18",
+    "stop_name": "J. RIPAS (Sri Complex/Laksamana CBT)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_19",
+    "stop_name": "J. RIPAS (Mile 1 - Batu 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_20",
+    "stop_name": "J. RIPAS → Sumbiling",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01A_21",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_2",
+    "stop_name": "J. Bendahara (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_4",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_5",
+    "stop_name": "J. RIPAS (Sri Complex/Laksamana)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_6",
+    "stop_name": "J. RIPAS (Mile 1 - Batu 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_7",
+    "stop_name": "J. Putera Al-Muhtadee Billah (RIPAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_8",
+    "stop_name": "J. Kiulap (Spg 107)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_9",
+    "stop_name": "J. Kiulap (Embassy Japan@Spg 119)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_10",
+    "stop_name": "Masjid Jame'Asr (Spg 127)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_11",
+    "stop_name": "J. Pasar Baharu (The Arch)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_12",
+    "stop_name": "Tamu Gadong (Gadong Market)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_13",
+    "stop_name": "Mall Gadong (Rizqun Hotel)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_14",
+    "stop_name": "Centrepoint Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_15",
+    "stop_name": "J. Gadong (Traffic Light Gadong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_16",
+    "stop_name": "J. Gadong (Under SHHB Bypass/Shell Menglait)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_17",
+    "stop_name": "J. Gadong (Jerambak / Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_18",
+    "stop_name": "Airport Lama (Building - JKR)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_19",
+    "stop_name": "Airport Lama (TelBru/Dental Clinic/Fire Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_20",
+    "stop_name": "J. Menteri Besar (Immigration / Labour)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_21",
+    "stop_name": "J. Menteri Besar (Custom / KHEU / Audit)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_22",
+    "stop_name": "J. Kebangsaan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_23",
+    "stop_name": "J. Kebangsaan (Mabohai / SupaSave)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_24",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "01C_25",
+    "stop_name": "J. Bendahara (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_2",
+    "stop_name": "J. Bendahara (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_4",
+    "stop_name": "SR Pusar Ulak / St Andrews",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_5",
+    "stop_name": "Kiulap Commercial (CA Mohammed/Hua Ho)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_6",
+    "stop_name": "Jejantas Kiulap (Kiulap Footbridge)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_7",
+    "stop_name": "Masjid Jame' Asr (RIPAS Shuttle Station)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_8",
+    "stop_name": "J. Pasar Baharu (The Arch)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_9",
+    "stop_name": "Tamu Gadong (Gadong Market)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_10",
+    "stop_name": "Mall Gadong (Rizqun Hotel)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_11",
+    "stop_name": "Centrepoint Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_12",
+    "stop_name": "J. Gadong (Nyonya Restaurant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_13",
+    "stop_name": "Batu Bersurat (Grand City)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_14",
+    "stop_name": "Centrepoint Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_15",
+    "stop_name": "Mall Gadong (Rizqun Hotel)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_16",
+    "stop_name": "Tamu Gadong (Gadong Market)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_17",
+    "stop_name": "Masjid Jame' Asr (RIPAS Shuttle Station)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_18",
+    "stop_name": "Jejantas Kiulap (Kiulap Footbridge)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_19",
+    "stop_name": "Kiulap Commercial (CA Mohammed/Hua Ho)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_20",
+    "stop_name": "J. Simpang (SOAS - St Andrews)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_21",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "20_22",
+    "stop_name": "J. Bendahara (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_2",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_4",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_5",
+    "stop_name": "Kiarong Complex (Via SHHB Highway)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_6",
+    "stop_name": "J. Dato Ratna Kiarong (SR. Kiarong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_7",
+    "stop_name": "J. Perindustrian Beribi (Sumbangsih & GHK)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_8",
+    "stop_name": "J. Gadong (Opp JPD)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_9",
+    "stop_name": "J. Gadong (Kompleks Warisan Mata2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_10",
+    "stop_name": "J. Mata-Mata (Spg 25/ Masjid Kg Mata2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_11",
+    "stop_name": "J. Mata-Mata (Spg 74/Perpindahan Mata2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_12",
+    "stop_name": "J. Mata-Mata (SR Pg Pekerma SDSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_13",
+    "stop_name": "J. Mata-Mata (Spg 52)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_14",
+    "stop_name": "J. Tungku (Spg 185 / 217 / 255)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_15",
+    "stop_name": "J. Tungku (Spg 273 / 289 / 355)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_16",
+    "stop_name": "J. Tungku (Masjid Kg Tungku)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_17",
+    "stop_name": "J. Penghubung Rimba (Spg 82 / 51)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_18",
+    "stop_name": "J. Penghubung Rimba (Spg Armada)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_19",
+    "stop_name": "Pusat Kesihatan Gadong (IPA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_20",
+    "stop_name": "Batu Bersurat (Grand City)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_21",
+    "stop_name": "J. Gadong (Traffic Light Gadong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_22",
+    "stop_name": "J. Gadong (Under SHHB Bypass)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_23",
+    "stop_name": "J. Gadong (Shell Menglait)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_24",
+    "stop_name": "J. Gadong (Jerambak / Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_25",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_26",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "21_27",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_3",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_4",
+    "stop_name": "Jejantas Kiulap (Kiulap Footbridge)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_5",
+    "stop_name": "J. Pasar Baharu (The Arch / Voctech)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_6",
+    "stop_name": "Maktab Duli PMHAMB / CSPS",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_7",
+    "stop_name": "UNISSA / Business School",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_8",
+    "stop_name": "J. Tungku (Narcotic CB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_9",
+    "stop_name": "J. Tungku (Spg 162/185 Aprina)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_10",
+    "stop_name": "J. Tungku (Spg 217 / 255)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_11",
+    "stop_name": "J. Tungku (Spg 289 / 355)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_12",
+    "stop_name": "Masjid Kg Tungku",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_13",
+    "stop_name": "J. Penghubung Rimba (Spg 82/51/Armada)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_14",
+    "stop_name": "J. Penghubung Rimba (DeRimba)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_15",
+    "stop_name": "RPN Kg Rimba (Gerai Aneka/SM Rimba 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_16",
+    "stop_name": "RPN Kg Rimba (J. 82 - SR Rimba 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_17",
+    "stop_name": "Giant Rimba",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_18",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba 2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_19",
+    "stop_name": "RPN Kg Rimba (J. 99 - SM Rimba 2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_20",
+    "stop_name": "RPN Kg Rimba (J. 60)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_21",
+    "stop_name": "UBD Library / ITB",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_22",
+    "stop_name": "UBD (Core & Hostel)/JIS",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_23",
+    "stop_name": "JIS/UBD (Hostel & Core)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_24",
+    "stop_name": "ITB / UBD Library",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_25",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba 2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_26",
+    "stop_name": "RPN Kg Rimba (J. 99 / 2 / 60 / Giant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_27",
+    "stop_name": "RPN Kg Rimba (SM Rimba 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_28",
+    "stop_name": "J. Penghubung Rimba (DeRimba)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_29",
+    "stop_name": "J. Penghubung Rimba (Spg 51 / 82 / 127)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_30",
+    "stop_name": "J. Tungku (Masjid Kg Tungku/Spg 355/185)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_31",
+    "stop_name": "J. Tungku (Spg 162/Narcotic CB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_32",
+    "stop_name": "UNISSA / Business School",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_33",
+    "stop_name": "CSPS / Maktab Duli PMHAMB",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_34",
+    "stop_name": "J. Pasar Baharu (Tamu Gadong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_35",
+    "stop_name": "Jejantas Kiulap (Kiulap Footbridge)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_36",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "22_37",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_3",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_4",
+    "stop_name": "J. Kumbang Pasang (STPR / Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_5",
+    "stop_name": "J. Perdana Menteri (Masjid Ash-Saliheen)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_6",
+    "stop_name": "J. Perdana Menteri (PMO)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_7",
+    "stop_name": "J. Berakas (Bolkiah Kem)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_8",
+    "stop_name": "J. Berakas (Times Sq & Airport Mall)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_9",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_10",
+    "stop_name": "J. Utama Berakas (SM Berakas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_11",
+    "stop_name": "J. Pasir Berakas (Kg Lambak)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_12",
+    "stop_name": "J. Pasir Berakas (Masjid Lambak/SR Dato Mahawangsa)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_13",
+    "stop_name": "J. Pasir Berakas (Restoran Hayati)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_14",
+    "stop_name": "RPN Lambak Kiri (Masjid L. Kiri/SM L. Kiri)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_15",
+    "stop_name": "RPN Lambak Kiri (SR Dato Othman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_16",
+    "stop_name": "Berakas Kem",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_17",
+    "stop_name": "J. Pasir Berakas (Restoran Hayati)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_18",
+    "stop_name": "J. Pasir Berakas (Kg Lambak)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_19",
+    "stop_name": "J. Pasir Berakas (SR Dato Mahawangsa)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_20",
+    "stop_name": "J. Pasir Berakas (Masjid Lambak)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_21",
+    "stop_name": "J. Utama Berakas (SM Berakas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_22",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_23",
+    "stop_name": "J. Berakas (Shell TAIB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_24",
+    "stop_name": "J. Berakas (Off J. Stadium)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_25",
+    "stop_name": "J. Perdana Menteri (PMO)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_26",
+    "stop_name": "J. Perdana Menteri (Masjid Ash-Saliheen)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_27",
+    "stop_name": "J. Simpang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_28",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "23_29",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_3",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_4",
+    "stop_name": "J. Kumbang Pasang (STPRI / Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_5",
+    "stop_name": "J. Perdana Menteri (Masjid ash-Saliheen)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_6",
+    "stop_name": "J. Perdana Menteri (PMO)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_7",
+    "stop_name": "J. Berakas (Bolkiah Kem)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_8",
+    "stop_name": "J. Berakas (Times Sq & Airport Mall)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_9",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_10",
+    "stop_name": "J. Utama Berakas (SM Berakas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_11",
+    "stop_name": "J. Madang (Spg 61/87/115/159)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_12",
+    "stop_name": "RPN Lambak Kanan (J. 1-SM PAPH Masna)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_13",
+    "stop_name": "RPN Lambak Kanan (J. 10 Selatan@J. 31)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_14",
+    "stop_name": "RPN Lambak Kanan (J. 10 Selatan@J. 11)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_15",
+    "stop_name": "RPN Lambak Kanan (J. 10 Utara@Masjid)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_16",
+    "stop_name": "RPN Lambak Kanan (J. 10 Utara@Spg 169)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_17",
+    "stop_name": "RPN Lambak Kanan (Dewan Kemasyarakatan)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_18",
+    "stop_name": "RPN Lambak Kanan (J. 10 Utara@J. 77/49)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_19",
+    "stop_name": "RPN Lambak Kanan (J. 10 Utara)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_20",
+    "stop_name": "RPN Lambak Kanan (J. 10 Selatan)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_21",
+    "stop_name": "RPN Lambak Kanan (J. 1@SR Dato Marsal)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_22",
+    "stop_name": "J. Madang (Kg Manggis)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_23",
+    "stop_name": "J. Madang (Kg Madang)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_24",
+    "stop_name": "J. Utama Berakas (SM Berakas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_25",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_26",
+    "stop_name": "J. Berakas (Shell TAIB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_27",
+    "stop_name": "J. Berakas (Off J. Stadium)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_28",
+    "stop_name": "J. Perdana Menteri (PMO)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_29",
+    "stop_name": "J. Perdana Menteri (Masjid ash-Saliheen)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_30",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_31",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "24_32",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_3",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_4",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_5",
+    "stop_name": "J. Kumbang Pasang (Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_6",
+    "stop_name": "Airport Lama (Bangunan JKR / TelBru)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_7",
+    "stop_name": "Airport Lama (Dental / Fire Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_8",
+    "stop_name": "Burong Pingai",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_9",
+    "stop_name": "J. Pertahanan (Opp ISB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_10",
+    "stop_name": "J. Berakas (Kebajikan/Times Sq&Airport Mall)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_11",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_12",
+    "stop_name": "J. Utama Berakas (SM Berakas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_13",
+    "stop_name": "J. Madang",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_14",
+    "stop_name": "J. 1 Lambak Kanan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_15",
+    "stop_name": "J. Manggis 2",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_16",
+    "stop_name": "J. Muara (Hua Ho Manggis)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_17",
+    "stop_name": "J. Muara (MSPSBS-Science College)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_18",
+    "stop_name": "J. Muara (Kompleks Delima Jaya)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_19",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_20",
+    "stop_name": "J. Berakas (Shell TAIB / Opp Times Sq)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_21",
+    "stop_name": "J. Pertahanan (ISB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_22",
+    "stop_name": "J. Pertahanan (MinDef)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_23",
+    "stop_name": "Burong Pingai",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_24",
+    "stop_name": "Airport Lama (Fire Rescue / Dental)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_25",
+    "stop_name": "Airport Lama (TelBru / Bangunan JKR)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_26",
+    "stop_name": "J. Kumbang Pasang (JPM)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_27",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_28",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "34_29",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_3",
+    "stop_name": "J. Kianggeh (SMJA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_4",
+    "stop_name": "J. Kebangsaan (Mabohai / Supasave)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_5",
+    "stop_name": "J. Menteri Besar (Immigration / Labour)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_6",
+    "stop_name": "J. Menteri Besar (Kastam / KHEU / Audit)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_7",
+    "stop_name": "Diplomatic Enclave",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_8",
+    "stop_name": "Kg Sungai Akar (Gurkha Camp / Spg 166)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_9",
+    "stop_name": "Kg Sungai Akar (Spg 40)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_10",
+    "stop_name": "J. Kebangsaan Lama",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_11",
+    "stop_name": "Diplomatic Enclave",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_12",
+    "stop_name": "J. Menteri Besar (Immigration / Labour)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_13",
+    "stop_name": "J. Menteri Besar (Kastam / KHEU / Audit)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_14",
+    "stop_name": "J. Kebangsaan (Opp Supasave / Mabohai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_15",
+    "stop_name": "J. Kianggeh (Opp SMJA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_16",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "35_17",
+    "stop_name": "J. Kianggeh (SM Chung Hwa/Pusat Belia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_3",
+    "stop_name": "J. Kianggeh (SMJA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_4",
+    "stop_name": "J. Kebangsaan (Supasave / Mabohai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_5",
+    "stop_name": "J. Menteri Besar (Immigration / Labour)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_6",
+    "stop_name": "J. Menteri Besar (Kastam / KHEU / Audit)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_7",
+    "stop_name": "Diplomatic Enclave",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_8",
+    "stop_name": "J. Pusat Dakwah (Opp Pusat Dakwah)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_9",
+    "stop_name": "ICC",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_10",
+    "stop_name": "National Stadium",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_11",
+    "stop_name": "J. Pulaie (Masjid Pulaie)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_12",
+    "stop_name": "J. Kebangsaan Lama (Spg 106)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_13",
+    "stop_name": "J. Anggreek Desa",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_14",
+    "stop_name": "Pancha Delima (SR Anggreek Desa)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_15",
+    "stop_name": "J. Delima 2",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_16",
+    "stop_name": "J. Kebangsaan Lama",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_17",
+    "stop_name": "J. Muara (Hua Ho Delima)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_18",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_19",
+    "stop_name": "J. Berakas (Shell TAIB/Opp Times Sq)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_20",
+    "stop_name": "J. Anggrek Desa",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_21",
+    "stop_name": "J. Kebangsaan Lama",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_22",
+    "stop_name": "Diplomatic Enclave",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_23",
+    "stop_name": "J. Menteri Besar (Immigration / Labour)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_24",
+    "stop_name": "J. Menteri Besar (Kastam / KHEU / Audit)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_25",
+    "stop_name": "J. Kebangsaan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_26",
+    "stop_name": "J. Kebangsaan (Supasave / Mabohai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_27",
+    "stop_name": "J. Kianggeh (Opp SMJA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_28",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "36_29",
+    "stop_name": "J. Kianggeh (SM Chung Hwa/Pusat Belia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_2",
+    "stop_name": "Jubilee Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_3",
+    "stop_name": "J. Subok (MOFAT)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_4",
+    "stop_name": "J. Subok (Opp Spore High Comm)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_5",
+    "stop_name": "J. Subok (Spg 121 / 160)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_6",
+    "stop_name": "J. Subok (Spg 217 / 247)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_7",
+    "stop_name": "J. Subok (SR Orang Kaya Besar Imas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_8",
+    "stop_name": "J. Subok (Masjid Kg Belimbing)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_9",
+    "stop_name": "J. Sungai Akar (Spg 166@Gurkha Camp)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_10",
+    "stop_name": "J. Sungai Akar (Spg 166 / 108)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_11",
+    "stop_name": "J. Sungai Akar (Spg 40)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_12",
+    "stop_name": "J. Muara (Kg Sg Tilong/Kg Sg Hancing)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_13",
+    "stop_name": "J. Muara (Kg Salambigar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_14",
+    "stop_name": "J. Muara (Kg Tanah Jambu)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_15",
+    "stop_name": "J. Muara (Kg Salar/Kg Kapok/Shell Kapok)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_16",
+    "stop_name": "Perpindahan Bukit Kabun",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_17",
+    "stop_name": "J. Muara (Spg 279 / J. Meragang)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_18",
+    "stop_name": "Kg Sabun (Muara Post Office)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_19",
+    "stop_name": "Pekan Muara",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_20",
+    "stop_name": "Kg Sabun (Masjid Setia Ali)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_21",
+    "stop_name": "J. Muara (Kg Kapok)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_22",
+    "stop_name": "J. Muara (Kg Salar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_23",
+    "stop_name": "J. Muara (Kg Tanah Jambu)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_24",
+    "stop_name": "J. Muara (SR Tanah Jambu)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_25",
+    "stop_name": "J. Muara (Kg Salambigar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_26",
+    "stop_name": "Kg Salambigar (Villa Al-Hidayah)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_27",
+    "stop_name": "Kg Salambigar (Indonesian Embassy)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_28",
+    "stop_name": "J. Muara (Kg Sg Hancing)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_29",
+    "stop_name": "J. Muara (Kg Sg Tilong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_30",
+    "stop_name": "J. Sungai Akar (Gurkha Camp)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_31",
+    "stop_name": "J. Subok (Masjid Kg Belimbing)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_32",
+    "stop_name": "J. Subok (SR Orang Kaya Besar Imas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_33",
+    "stop_name": "J. Subok (Spg 300)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_34",
+    "stop_name": "J. Subok (Spg 168)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_35",
+    "stop_name": "J. Subok (Spore High Comm)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "37_36",
+    "stop_name": "Jubilee Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_3",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_4",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_5",
+    "stop_name": "J. Kumbang Pasang (Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_6",
+    "stop_name": "J. Berakas (PMO / Masjid Ash-Saliheen)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_7",
+    "stop_name": "J. Berakas (Bolkiah Kem)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_8",
+    "stop_name": "J. Berakas (Kebajikan/Time Sq/Airport Mall)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_9",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_10",
+    "stop_name": "J. Muara (SM Berakas/Masjid M. Bolkiah)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_11",
+    "stop_name": "J. Muara (MSPSBS / MTSSR)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_12",
+    "stop_name": "J. Muara (SR Delima)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_13",
+    "stop_name": "Kg Sungai Tilong (Spg 311/351/395/427)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_14",
+    "stop_name": "Kg Sungai Hancing (Spg 529 / 655)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_15",
+    "stop_name": "J. Muara (Kg Salambigar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_16",
+    "stop_name": "Kg Tanah Jambu (SR Tanah Jambu)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_17",
+    "stop_name": "J. Muara - Kg Salar (Spg 606)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_18",
+    "stop_name": "J. Muara (J. Bukit Kabun)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_19",
+    "stop_name": "J. Muara (Kg Kapok)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_20",
+    "stop_name": "J. Muara Kg Sabun (Spg 158)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_21",
+    "stop_name": "Kg Sabun (Opp Masjid Setia Ali)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_22",
+    "stop_name": "Pekan Muara",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_23",
+    "stop_name": "J. Muara (Muara Centre)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_24",
+    "stop_name": "Kg Sabun (Masjid Setia Ali)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_25",
+    "stop_name": "J. Muara (Kg Kapok)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_26",
+    "stop_name": "Kg Salar (Spg 599 / 689)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_27",
+    "stop_name": "Kg Tanah Jambu (SR Tanah Jambu)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_28",
+    "stop_name": "Kg Salambigar (Spg 736 / 700 / 638)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_29",
+    "stop_name": "Kg Sungai Hancing (Spg 560)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_30",
+    "stop_name": "Kg Sungai Hancing (Spg 542)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_31",
+    "stop_name": "J. Muara Kg Sg Tilong (Spg 462 / 440 / 350)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_32",
+    "stop_name": "J. Muara (Hua Ho Manggis Mall)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_33",
+    "stop_name": "J. Muara (Spg 94)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_34",
+    "stop_name": "J. Muara (Delima Jaya)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_35",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_36",
+    "stop_name": "J. Berakas (Shell TAIB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_37",
+    "stop_name": "J. Berakas (Off J. Pertahanan)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_38",
+    "stop_name": "J. Berakas (Off J. Stadium)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_39",
+    "stop_name": "J. Berakas (PMO / Masjid Ash-Saliheen)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_40",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_41",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "38_42",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_2",
+    "stop_name": "J. Residency (Tanah Perkuburan/Cemetery)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_3",
+    "stop_name": "J. Kota Batu (Kg Sg Lampas Spg 205)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_4",
+    "stop_name": "J. Kota Batu - Kg Pintu Malim (Spg 231/253)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_5",
+    "stop_name": "J. Kota Batu (Kg Kota Batu (Museum))",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_6",
+    "stop_name": "J. Kota Batu (Kg Pelambaian)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_7",
+    "stop_name": "J. Kota Batu (Kg Dato Gandi Spg 569)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_8",
+    "stop_name": "J. Kota Batu (Kg Sg Matan Spg 663/700)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_9",
+    "stop_name": "J. Kota Batu (Kg Seredang Spg 755)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_10",
+    "stop_name": "Mangrove Resort",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_11",
+    "stop_name": "J. Kota Batu (Kg Sungai Belukut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_12",
+    "stop_name": "J. Kota Batu (Kg Sungai Besar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_13",
+    "stop_name": "J. Kota Batu (Kg Mentiri / Masjid)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_14",
+    "stop_name": "Pantai Mentiri Golf Club",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_15",
+    "stop_name": "RPN Kg Mentiri (J. D/Masjid RPN Mentiri)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_16",
+    "stop_name": "J. Kota Batu (Masjid Kg Sg Buloh)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_17",
+    "stop_name": "J. Muara (Kg Salar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_18",
+    "stop_name": "J. Muara (Kg Kapok)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_19",
+    "stop_name": "J. Muara Kg Sabun (Spg 158)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_20",
+    "stop_name": "J. Muara (Muara Post Office)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_21",
+    "stop_name": "Pekan Muara",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_22",
+    "stop_name": "Kg Sabun (Masjid Setia Ali)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_23",
+    "stop_name": "J. Muara (Kg Kapok Spg 209 / 279)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_24",
+    "stop_name": "Kg Kapok (Spg 425/459/481/531)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_25",
+    "stop_name": "J. Muara (Kg Salar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_26",
+    "stop_name": "J. Kota Batu (Kg Sg Buloh J. Batu Marang)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_27",
+    "stop_name": "Kg Sungai Buloh (Spg 5 / 135)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_28",
+    "stop_name": "RPN Kg Mentiri (Spg 175 / Masjid)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_29",
+    "stop_name": "RPN Kg Mentiri (J. D/Masjid RPN Mentiri)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_30",
+    "stop_name": "RPN Kg Mentiri (Spg 345 / 379 / 175)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_31",
+    "stop_name": "J. Kota Batu (Kg Sungai Besar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_32",
+    "stop_name": "J. Kota Batu (Kg Sungai Belukut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_33",
+    "stop_name": "Mangrove Resort",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_34",
+    "stop_name": "Kg Sg Matan (Spg 722 / 702 / 664)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_35",
+    "stop_name": "Kg Dato Gandi (Spg 572)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_36",
+    "stop_name": "J. Kota Batu (Kg Pelambaian)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_37",
+    "stop_name": "Kg Kota Batu (Brunei Museum)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_38",
+    "stop_name": "Kg Pintu Malim (SR Pintu Malim)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_39",
+    "stop_name": "J. Kota Batu-Kg Sg Lampas (Spg 214 / Fire Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "39_40",
+    "stop_name": "J. Residency (Brunei Handicraft Centre)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_2",
+    "stop_name": "Royal Regalia/Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_3",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_4",
+    "stop_name": "J. RIPAS (Sri Complex/KUPUSB/Tumasek)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_5",
+    "stop_name": "J. RIPAS (Spg 153 / 237)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_6",
+    "stop_name": "J. RIPAS (Istana Nurul Iman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_7",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_8",
+    "stop_name": "J. Tutong (Kg Telanai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_9",
+    "stop_name": "J. Tutong (Opp National Inn/J. Hj Halus)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_10",
+    "stop_name": "J. Tutong (SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_11",
+    "stop_name": "J. Tutong (Spg 729/735/759/779/803)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_12",
+    "stop_name": "J. Tutong (Spg 993/1109/1023)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_13",
+    "stop_name": "J. Tutong (Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_14",
+    "stop_name": "J. Tutong (Opp Agriculture RC)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_15",
+    "stop_name": "J. Tutong (SR Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_16",
+    "stop_name": "J. Tutong (J.Pasai 1/Ban 3/Spg 102)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_17",
+    "stop_name": "J. Mulaut/Limau Manis (Ayamku)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_18",
+    "stop_name": "J. Ban 4 / Ban 5 / Spg 285",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_19",
+    "stop_name": "J. Mulaut / Limau Manis (Hua Ho Mulaut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_20",
+    "stop_name": "J. Mulaut / Limau Manis (MOSAL)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_21",
+    "stop_name": "Taman Mini Parit",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_22",
+    "stop_name": "J. Mulaut/Limau Manis (Spg 1043/1133/1145/1253)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_23",
+    "stop_name": "J. Kuala Lurah (Spg 60 / 96 / 152)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_24",
+    "stop_name": "Pos Kawalan Kuala Lurah",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_25",
+    "stop_name": "J. Kuala Lurah (Opp Spg 152 / 96 / 60)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_26",
+    "stop_name": "Taman Mini Parit",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_27",
+    "stop_name": "J. Mulaut/Limau Manis (Spg 816 / 884 / 938)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_28",
+    "stop_name": "J. Mulaut / Limau Manis (S. Ugama Kg Masin)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_29",
+    "stop_name": "J. Mulaut / Limau Manis (Spg 647 / 718 / 728)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_30",
+    "stop_name": "J. Mulaut / Limau Manis (Spg 525 / 558 / 610)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_31",
+    "stop_name": "Shell Bebatik Kilanas",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_32",
+    "stop_name": "J. Mulaut / Limau Manis (Hua Ho Mulaut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_33",
+    "stop_name": "J. Mulaut/Limau Manis (S. Ugama Mulaut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_34",
+    "stop_name": "J. Mulaut / Limau Manis (J. Pasai2/Spg 58/102)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_35",
+    "stop_name": "J. Tutong (Shell Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_36",
+    "stop_name": "J. Tutong (Sengkurong Health Centre)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_37",
+    "stop_name": "J. Tutong (Opp Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_38",
+    "stop_name": "J. Tutong (Opp Spg 993/1038/1080/1116/1026)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_39",
+    "stop_name": "J. Tutong (Spg 728/774/J. Dadap)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_40",
+    "stop_name": "J. Tutong (Opp SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_41",
+    "stop_name": "J. Tutong (Opp Taman Puri/National Inn)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_42",
+    "stop_name": "J. Tutong (Opp Spg 389/394/402/444/285)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_43",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_44",
+    "stop_name": "J. RIPAS (Tumasek/KUPUSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_45",
+    "stop_name": "J. RIPAS (Mile 1 - Batu 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "42_46",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_2",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_4",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_5",
+    "stop_name": "J. RIPAS (Sri Complex/KUPUSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_6",
+    "stop_name": "J. RIPAS (Istana Nurul Iman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_7",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_8",
+    "stop_name": "J. Tutong (Kg Telanai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_9",
+    "stop_name": "J. Tutong (Spg 625)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_10",
+    "stop_name": "J. Tutong (SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_11",
+    "stop_name": "J. Tutong (Spg 729 / 803)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_12",
+    "stop_name": "J. Bengkurong Masin (Soon Lee Megamart)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_13",
+    "stop_name": "J. Junjongan (TelBru Station)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_14",
+    "stop_name": "J. Junjongan (Masjid Kg Junjongan)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_15",
+    "stop_name": "Pos Kawalan Kuala Lurah",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_16",
+    "stop_name": "J. Junjongan (SR Junjongan)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_17",
+    "stop_name": "J. Kuala Lurah (Spg 125)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_18",
+    "stop_name": "J. Kuala Lurah (Masjid Limau Manis)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_19",
+    "stop_name": "J. Junjongan (Masjid Kg Junjongan)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_20",
+    "stop_name": "J. Bengkurong Masin (Soon Lee Megamart)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_21",
+    "stop_name": "J. Tutong (Kg Bunut / Spg 774)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_22",
+    "stop_name": "J. Tutong (Opp SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_23",
+    "stop_name": "J. Tutong (Taman Puri)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_24",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_25",
+    "stop_name": "J. RIPAS (Istana Nurul Iman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_26",
+    "stop_name": "J. RIPAS (Mile 1 / Batu 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_27",
+    "stop_name": "J. RIPAS - Sumbiling",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "44_28",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_2",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_4",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_5",
+    "stop_name": "J. RIPAS (Sri Complex/KUPUSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_6",
+    "stop_name": "J. RIPAS (Istana Nurul Iman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_7",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_8",
+    "stop_name": "J. Tutong (Spg 625)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_9",
+    "stop_name": "J. Tutong (Masjid Kg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_10",
+    "stop_name": "J. Tutong (SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_11",
+    "stop_name": "J. Tutong (Spg 729 / 803)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_12",
+    "stop_name": "J. Tutong (Kg Kilanas / Ban 3)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_13",
+    "stop_name": "J. Tutong (Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_14",
+    "stop_name": "J. Tutong (SR Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_15",
+    "stop_name": "J. Pasai 1 (Ban 3)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_16",
+    "stop_name": "J. Mulaut (Ban 4)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_17",
+    "stop_name": "J. Mulaut / Limau Manis (Masjid DPM Abdul Mateen)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_18",
+    "stop_name": "J. Mulaut / Limau Manis (Spg 285)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_19",
+    "stop_name": "J. Tutong (Kg Pasai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_20",
+    "stop_name": "J. Tutong (Hua Ho/Masjid Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_21",
+    "stop_name": "J. Tutong (Opp Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_22",
+    "stop_name": "J. Tutong (Opp Spg 1116 / 1206)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_23",
+    "stop_name": "J. Tutong (Nusa Laila)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_24",
+    "stop_name": "J. Tutong (Home Centre)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_25",
+    "stop_name": "J. Tutong (Spg 774)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_26",
+    "stop_name": "J. Tutong (Opp SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_27",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_28",
+    "stop_name": "J. RIPAS (Opp Shell Tumasek)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_29",
+    "stop_name": "J. RIPAS (KUPUSB/Mile 1-Batu 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_30",
+    "stop_name": "J. RIPAS - Sumbiling",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "45_31",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_2",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_4",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_5",
+    "stop_name": "J. RIPAS (Sri Complex)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_6",
+    "stop_name": "J. RIPAS (KUPUSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_7",
+    "stop_name": "J. RIPAS (Istana Nurul Iman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_8",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_9",
+    "stop_name": "J. Tutong (Spg 625)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_10",
+    "stop_name": "J. Tutong (SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_11",
+    "stop_name": "J. Tutong (Spg 729)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_12",
+    "stop_name": "J. Tutong (Spg Ban 3)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_13",
+    "stop_name": "J. Ban 3 Mulaut (Spg Ban 3-A)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_14",
+    "stop_name": "J. Mulaut Limau Manis (Spg Ban 4)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_15",
+    "stop_name": "J. Ban 2",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_16",
+    "stop_name": "J. Ban 1",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_17",
+    "stop_name": "J. Ban 5",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_18",
+    "stop_name": "J. Ban 6",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_19",
+    "stop_name": "Mulaut Abattoir",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_20",
+    "stop_name": "J. Mulaut Limau Manis (Spg 238)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_21",
+    "stop_name": "Hua Ho Mulaut",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_22",
+    "stop_name": "J. Mulaut Limau Manis (Spg Bebatik Kilanas)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_23",
+    "stop_name": "J. Tutong (Spg Kg Kilanas-Bebatik)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_24",
+    "stop_name": "J. Tutong (Opp Spg 993)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_25",
+    "stop_name": "J. Tutong (SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_26",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_27",
+    "stop_name": "J. RIPAS (Istana Nurul Iman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_28",
+    "stop_name": "J. RIPAS (Opp KUPUSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_29",
+    "stop_name": "J. RIPAS (Mile 1 - Batu 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_30",
+    "stop_name": "J. RIPAS - Sumbiling",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "49_31",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_3",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_4",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_5",
+    "stop_name": "J. Gadong (Riverview/Shell Gadong/NBT)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_6",
+    "stop_name": "J. Gadong (Nyonya Restaurant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_7",
+    "stop_name": "J. Gadong (Police HQ)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_8",
+    "stop_name": "J. Gadong (Supasave / JPD)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_9",
+    "stop_name": "J. Gadong (Beribi Industry/BINA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_10",
+    "stop_name": "J. Gadong (Spg 456/471/502/540)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_11",
+    "stop_name": "J. Gadong (Opp. Sunshine Sch)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_12",
+    "stop_name": "J. Gadong (Opp. Masjid Jubli Perak)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_13",
+    "stop_name": "J. Gadong (Spg 884/Gerai Jangsak)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_14",
+    "stop_name": "J. Tutong (Spg to Ban 3 / 1244)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_15",
+    "stop_name": "J. Tutong (Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_16",
+    "stop_name": "J. Tutong (Nusa Laila)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_17",
+    "stop_name": "J. Tutong (SR Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_18",
+    "stop_name": "J. Jerudong (Spg 7 / PWD / 166)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_19",
+    "stop_name": "J. Jerudong (SR Bakti Dewa)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_20",
+    "stop_name": "J. Jerudong (Jeruton / HSBC)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_21",
+    "stop_name": "J. Jerudong (Park Garden)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_22",
+    "stop_name": "Jerudong Park (Crystal)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_23",
+    "stop_name": "J. Jerudong (Masjid Al Ameerah/H. Lodge)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_24",
+    "stop_name": "J. Jerudong (Asma Hotel)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_25",
+    "stop_name": "Pasar Jerudong (Market)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_26",
+    "stop_name": "J. Jerudong (Asma Hotel)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_27",
+    "stop_name": "J. Jerudong (Holiday Lodge)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_28",
+    "stop_name": "J. Jerudong (Masjid Al Ameerah)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_29",
+    "stop_name": "Jerudong Park (Crystal)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_30",
+    "stop_name": "J. Jerudong (Spg 570 / Park Garden)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_31",
+    "stop_name": "J. Jerudong (Opp. HSBC / Jeruton)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_32",
+    "stop_name": "J. Jerudong (SR Bakti Dewa)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_33",
+    "stop_name": "J. Jerudong (Spg 166 / 100 / 60 / 8)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_34",
+    "stop_name": "J. Tutong (Hua Ho Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_35",
+    "stop_name": "J. Tutong (Sengkurong Health Centre)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_36",
+    "stop_name": "J. Tutong (Agriculture RC)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_37",
+    "stop_name": "J. Tutong (Opp Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_38",
+    "stop_name": "J. Gadong (Masjid Jubli Perak)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_39",
+    "stop_name": "J. Gadong (Sunshine Sch.)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_40",
+    "stop_name": "J. Gadong (S. Ugama Beribi)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_41",
+    "stop_name": "J. Gadong (Kompleks Warisan Mata2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_42",
+    "stop_name": "J. Gadong (Police HQ)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_43",
+    "stop_name": "J. Gadong (Traffic Light Gadong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_44",
+    "stop_name": "J. Gadong (NBT/ Shell Menglait)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_45",
+    "stop_name": "J. Gadong (Jerambak/Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_46",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_47",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "55_48",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_2",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_4",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_5",
+    "stop_name": "J. RIPAS (Sri Complex / KUPUSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_6",
+    "stop_name": "J. RIPAS (Spg 153 / 237)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_7",
+    "stop_name": "J. RIPAS (Istana Nurul Iman)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_8",
+    "stop_name": "Taman Damuan",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_9",
+    "stop_name": "J. RIPAS (Spg 402)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_10",
+    "stop_name": "J. Tutong (Kg Telanai)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_11",
+    "stop_name": "J. Tutong (Opp Tmn Puri/National Inn)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_12",
+    "stop_name": "J. Tutong (Spg J. Hj Halus)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_13",
+    "stop_name": "J. Tutong (SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_14",
+    "stop_name": "J. Tutong (Spg 729/735/759/779/803)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_15",
+    "stop_name": "J. Tutong (Spg 993/1109/1023/Spg Ban 3)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_16",
+    "stop_name": "J. Tutong (Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_17",
+    "stop_name": "J. Tutong (Opp Agriculture RC)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_18",
+    "stop_name": "J. Tutong (SR Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_19",
+    "stop_name": "J. Tutong (Shell SATENAGA/Spg 1737)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_20",
+    "stop_name": "J. Katimahar (Masjid Kg Katimahar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_21",
+    "stop_name": "J. Katimahar (SR Katimahar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_22",
+    "stop_name": "Kg Lugu",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_23",
+    "stop_name": "J. Katimahar (Kg Katimahar)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_24",
+    "stop_name": "J. Tutong (Shell SATENAGA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_25",
+    "stop_name": "J. Tutong (Sengkurong Library)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_26",
+    "stop_name": "J. Tutong (Hua Ho/Masjid Sengkurong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_27",
+    "stop_name": "J. Tutong (Sengkurong Health Centre)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_28",
+    "stop_name": "J. Tutong (Agriculture RC)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_29",
+    "stop_name": "J. Tutong (Opp Hua Ho Tg Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_30",
+    "stop_name": "J. Tutong (Opp Spg 993 / 1038)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_31",
+    "stop_name": "J. Tutong (Spg 1116 / 1026)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_32",
+    "stop_name": "J. Tutong (Spg J. Dadap)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_33",
+    "stop_name": "J. Tutong (Spg 728)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_34",
+    "stop_name": "J. Tutong (Spg 774)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_35",
+    "stop_name": "J. Tutong (Opp SR Bendahara Sakam Bunut)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_36",
+    "stop_name": "J. Tutong (National Inn/Tmn Puri)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_37",
+    "stop_name": "J. RIPAS (Chuchu Plaza)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_38",
+    "stop_name": "J. RIPAS (Opp Spg 444/285)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_39",
+    "stop_name": "J. RIPAS (Opp Taman Damuan)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_40",
+    "stop_name": "J. RIPAS (Shell Tumasek/KUPUSB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_41",
+    "stop_name": "J. RIPAS (Mile 1-Batu 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "56_42",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_2",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_3",
+    "stop_name": "Sumbiling (Fire & Rescue)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_4",
+    "stop_name": "J. RIPAS Mahkamah (Court)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_5",
+    "stop_name": "Kompleks Kiarong (Via SHB Highway)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_6",
+    "stop_name": "J. Dato Ratna Kiarong (SR Kiarong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_7",
+    "stop_name": "J. Perindustrian Beribi (Sumbangsih & GHK)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_8",
+    "stop_name": "J. Gadong (Beribi Industry / BINA)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_9",
+    "stop_name": "PTE Katok/Kg Katok B/Kg Mata-Mata",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_10",
+    "stop_name": "J. Tungku",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_11",
+    "stop_name": "J. Penghubung Rimba (Spg 82/51/Armada)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_12",
+    "stop_name": "J. Penghubung Rimba (DeRimba)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_13",
+    "stop_name": "RPN Kg Rimba (Gerai Aneka-SM Rimba 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_14",
+    "stop_name": "RPN Kg Rimba (J. 60 / 2 / 99 / Giant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_15",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_16",
+    "stop_name": "UBD / ITB / JIS",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_17",
+    "stop_name": "Bukit Shahbandar",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_18",
+    "stop_name": "Empire Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_19",
+    "stop_name": "Pasar Jerudong (Market)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_20",
+    "stop_name": "Empire Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_21",
+    "stop_name": "Pantai Tungku",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_22",
+    "stop_name": "JIS / UBD / ITB",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_23",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_24",
+    "stop_name": "RPN Kg Rimba (J. 99 / 2 / 60 / Giant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_25",
+    "stop_name": "RPN Kg Rimba (SM Rimba 1-Gerai Aneka)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_26",
+    "stop_name": "J. Penghubung Rimba (DeRimba)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_27",
+    "stop_name": "J. Penghubung Rimba (Spg 51/Armada/82)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_28",
+    "stop_name": "J. Tungku",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_29",
+    "stop_name": "Kg Mata2/Katok B/PTE Katok",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_30",
+    "stop_name": "J. Gadong (S. Ugama Beribi)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_31",
+    "stop_name": "J. Perindustrian Beribi",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_32",
+    "stop_name": "J. Dato Ratna Kiarong (SR Kiarong)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_33",
+    "stop_name": "Kompleks Kiarong",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_34",
+    "stop_name": "J. RIPAS Via SHB Highway",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_35",
+    "stop_name": "J. RIPAS - Sumbiling",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "57_36",
+    "stop_name": "J. SOAS (Royal Regalia)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_2",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_3",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_4",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_5",
+    "stop_name": "J. Gadong (Riverview/Shell Gadong / NBT)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_6",
+    "stop_name": "J. Gadong (Nyonya Restaurant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_7",
+    "stop_name": "J. Tungku (Narcotic CB)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_8",
+    "stop_name": "J. Tungku",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_9",
+    "stop_name": "J. Penghubung Rimba (Spg 82 / 51 / Armada)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_10",
+    "stop_name": "J. Penghubung Rimba (DeRimba)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_11",
+    "stop_name": "RPN Kg Rimba (Gerai Aneka/SM Rimba 1)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_12",
+    "stop_name": "RPN Kg Rimba (Jln 60 / 2 / 99 / Giant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_13",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba 2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_14",
+    "stop_name": "UBD Library",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_15",
+    "stop_name": "ITB",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_16",
+    "stop_name": "UBD (Core / Hostel)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_17",
+    "stop_name": "JIS",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_18",
+    "stop_name": "Bukit Shahbandar",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_19",
+    "stop_name": "Empire Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_20",
+    "stop_name": "Pasar Jerudong (Market)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_21",
+    "stop_name": "Empire Hotel",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_22",
+    "stop_name": "Pantai Tungku",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_23",
+    "stop_name": "JIS",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_24",
+    "stop_name": "UBD (Hostel / Core)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_25",
+    "stop_name": "ITB",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_26",
+    "stop_name": "UBD Library",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_27",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba2)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_28",
+    "stop_name": "RPN Kg Rimba (Jln 99 / 2 / 60 / Giant)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_29",
+    "stop_name": "RPN Kg Rimba (SM Rimba 1/Gerai Aneka)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_30",
+    "stop_name": "J. Penghubung Rimba (DeRimba)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_31",
+    "stop_name": "J. Penghubung Rimba (Spg 51 / Armada / 82)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_32",
+    "stop_name": "J. Tungku",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_33",
+    "stop_name": "J. Gadong (K.Warisan Mata2/Traffic Lt Gadong/Shell Menglait)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_34",
+    "stop_name": "J. Gadong (Jerambak / Riverview)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_35",
+    "stop_name": "J. Kumbang Pasang (STPRI)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_36",
+    "stop_name": "J. Simpang (SOAS)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_37",
+    "stop_name": "J. Kianggeh (Terrace / Radisson)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "58_38",
+    "stop_name": "J. Kianggeh (SM Chung Hwa)",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "EX_1",
+    "stop_name": "BSB Bus Terminal",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  },
+  {
+    "stop_id": "EX_2",
+    "stop_name": "Brunei International Airport",
+    "stop_lat": "0.0",
+    "stop_lon": "0.0"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "route_id": "01A",
+    "service_id": "WEEKDAY",
+    "trip_id": "01A_Mabohai→Mall Gadong",
+    "trip_headsign": "Mabohai→Mall Gadong"
+  },
+  {
+    "route_id": "20",
+    "service_id": "WEEKDAY",
+    "trip_id": "20_→Batu Bersurat",
+    "trip_headsign": "→Batu Bersurat"
+  },
+  {
+    "route_id": "01C",
+    "service_id": "WEEKDAY",
+    "trip_id": "01C_Sumbiling→Mall Gadong",
+    "trip_headsign": "Sumbiling→Mall Gadong"
+  },
+  {
+    "route_id": "21",
+    "service_id": "WEEKDAY",
+    "trip_id": "21_→Kg. Tungku",
+    "trip_headsign": "→Kg. Tungku"
+  },
+  {
+    "route_id": "22",
+    "service_id": "WEEKDAY",
+    "trip_id": "22_→Rimba / ITB / UBD / JIS",
+    "trip_headsign": "→Rimba / ITB / UBD / JIS"
+  },
+  {
+    "route_id": "23",
+    "service_id": "WEEKDAY",
+    "trip_id": "23_→RPN Lambak Kiri & Berakas Kem",
+    "trip_headsign": "→RPN Lambak Kiri & Berakas Kem"
+  },
+  {
+    "route_id": "24",
+    "service_id": "WEEKDAY",
+    "trip_id": "24_→RPN Lambak Kanan",
+    "trip_headsign": "→RPN Lambak Kanan"
+  },
+  {
+    "route_id": "34",
+    "service_id": "WEEKDAY",
+    "trip_id": "34_→Airport & Delima/Serusop",
+    "trip_headsign": "→Airport & Delima/Serusop"
+  },
+  {
+    "route_id": "35",
+    "service_id": "WEEKDAY",
+    "trip_id": "35_→Kg Sungai Akar",
+    "trip_headsign": "→Kg Sungai Akar"
+  },
+  {
+    "route_id": "36",
+    "service_id": "WEEKDAY",
+    "trip_id": "36_ICC/Stadium→Airport",
+    "trip_headsign": "ICC/Stadium→Airport"
+  },
+  {
+    "route_id": "37",
+    "service_id": "WEEKDAY",
+    "trip_id": "37_→Pekan Muara",
+    "trip_headsign": "→Pekan Muara"
+  },
+  {
+    "route_id": "38",
+    "service_id": "WEEKDAY",
+    "trip_id": "38_→Pekan Muara",
+    "trip_headsign": "→Pekan Muara"
+  },
+  {
+    "route_id": "39",
+    "service_id": "WEEKDAY",
+    "trip_id": "39_→Pekan Muara",
+    "trip_headsign": "→Pekan Muara"
+  },
+  {
+    "route_id": "42",
+    "service_id": "WEEKDAY",
+    "trip_id": "42_Kuala Lurah@Brunei→Limbang",
+    "trip_headsign": "Kuala Lurah@Brunei→Limbang"
+  },
+  {
+    "route_id": "44",
+    "service_id": "WEEKDAY",
+    "trip_id": "44_Kuala Lurah@Brunei→Limbang",
+    "trip_headsign": "Kuala Lurah@Brunei→Limbang"
+  },
+  {
+    "route_id": "45",
+    "service_id": "WEEKDAY",
+    "trip_id": "45_→Spg 525 Jalan Mulaut-Limau Manis",
+    "trip_headsign": "→Spg 525 Jalan Mulaut-Limau Manis"
+  },
+  {
+    "route_id": "49",
+    "service_id": "WEEKDAY",
+    "trip_id": "49_→Kg Bunut→Mulaut",
+    "trip_headsign": "→Kg Bunut→Mulaut"
+  },
+  {
+    "route_id": "55",
+    "service_id": "WEEKDAY",
+    "trip_id": "55_→Pasar Jerudong (Market) via Sengkurong/Jerudong",
+    "trip_headsign": "→Pasar Jerudong (Market) via Sengkurong/Jerudong"
+  },
+  {
+    "route_id": "56",
+    "service_id": "WEEKDAY",
+    "trip_id": "56_→Kg Lugu",
+    "trip_headsign": "→Kg Lugu"
+  },
+  {
+    "route_id": "57",
+    "service_id": "WEEKDAY",
+    "trip_id": "57_→Pasar Jerudong (Market) via Katok/Rimba/Empire",
+    "trip_headsign": "→Pasar Jerudong (Market) via Katok/Rimba/Empire"
+  },
+  {
+    "route_id": "58",
+    "service_id": "WEEKDAY",
+    "trip_id": "58_→Pasar Jerudong (Market) via Rimba/Empire",
+    "trip_headsign": "→Pasar Jerudong (Market) via Rimba/Empire"
+  },
+  {
+    "route_id": "EX",
+    "service_id": "WEEKDAY",
+    "trip_id": "EX_BSB→Airport",
+    "trip_headsign": "BSB→Airport"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "route_id": "01A",
+    "route_short_name": "01A",
+    "route_long_name": "Mabohai-Airport Lama-Mall Gadong-Jame'Asr-RIPAS-Sumbiling",
+    "route_type": "3"
+  },
+  {
+    "route_id": "20",
+    "route_short_name": "20",
+    "route_long_name": "Kiulap Commercial-Jame' Asr-Mall Gadong-Batu Bersurat",
+    "route_type": "3"
+  },
+  {
+    "route_id": "01C",
+    "route_short_name": "01C",
+    "route_long_name": "Sumbiling-RIPAS-Jame'Asr-Mall Gadong-Airport Lama-Mabohai",
+    "route_type": "3"
+  },
+  {
+    "route_id": "21",
+    "route_short_name": "21",
+    "route_long_name": "Kiarong-Mata2-Kg. Tungku-IPA-Batu Bersurat-J. Gadong",
+    "route_type": "3"
+  },
+  {
+    "route_id": "22",
+    "route_short_name": "22",
+    "route_long_name": "Tamu Gadong-UNISSA-J. Tungku-Rimba-ITB-UBD-JIS",
+    "route_type": "3"
+  },
+  {
+    "route_id": "23",
+    "route_short_name": "23",
+    "route_long_name": "J. Kumbang Pasang-Airport-J. Psr. Berakas-RPN Lambak Kiri-Berakas Kem",
+    "route_type": "3"
+  },
+  {
+    "route_id": "24",
+    "route_short_name": "24",
+    "route_long_name": "J. Kumbang Pasang-J. Berakas-Airport-Madang-RPN Lambak Kanan",
+    "route_type": "3"
+  },
+  {
+    "route_id": "34",
+    "route_short_name": "34",
+    "route_long_name": "Airport Lama-Burong Pingai-Times Sq-Airport-Manggis2-Delima Jaya",
+    "route_type": "3"
+  },
+  {
+    "route_id": "35",
+    "route_short_name": "35",
+    "route_long_name": "J. Kianggeh-J. Kebangsaan-Immigration-Diplomatic-J. Sg Akar",
+    "route_type": "3"
+  },
+  {
+    "route_id": "36",
+    "route_short_name": "36",
+    "route_long_name": "Mabohai-Immigration-Stadium-Pulaie-J. Kebangsaan Lama-Delima 1-J. Muara-J. Berakas",
+    "route_type": "3"
+  },
+  {
+    "route_id": "37",
+    "route_short_name": "37",
+    "route_long_name": "J. Subok-J. Sg Akar-J. Muara (Salambigar→Kapok)-Kg Sabun-Pekan Muara",
+    "route_type": "3"
+  },
+  {
+    "route_id": "38",
+    "route_short_name": "38",
+    "route_long_name": "J. Kumbang Pasang-Times Sq/Airport Mall-Airport-J. Muara-Pekan Muara",
+    "route_type": "3"
+  },
+  {
+    "route_id": "39",
+    "route_short_name": "39",
+    "route_long_name": "J. Kota Batu-Museum-Mangrove resort-RPN Kg Mentiri-Kg Kapok Muara",
+    "route_type": "3"
+  },
+  {
+    "route_id": "42",
+    "route_short_name": "42",
+    "route_long_name": "J. Tutong[Batu 1→Sengkurong]-J. Mulaut-L. Manis [Mulaut-Pengkalan Batu]-J. K. Lurah",
+    "route_type": "3"
+  },
+  {
+    "route_id": "44",
+    "route_short_name": "44",
+    "route_long_name": "J. Tutong[Batu 1→Bunut]-J. Bengkurong Masin-Kg Junjongan-J. K. Lurah",
+    "route_type": "3"
+  },
+  {
+    "route_id": "45",
+    "route_short_name": "45",
+    "route_long_name": "J. Tutong[Batu 1→T. Meradun-Sengkurong]-J. Mulaut/L. Manis (Mulaut-Masin)",
+    "route_type": "3"
+  },
+  {
+    "route_id": "49",
+    "route_short_name": "49",
+    "route_long_name": "J. Tutong[Batu 1→Bunut]-Mulaut Ban (3)-(4)-(2)-(1)-(5)-(6)-Bebatik Kilanas",
+    "route_type": "3"
+  },
+  {
+    "route_id": "55",
+    "route_short_name": "55",
+    "route_long_name": "J. Gadong-Jangsak-J. Tutong-Sengkurong-J. Jerudong",
+    "route_type": "3"
+  },
+  {
+    "route_id": "56",
+    "route_short_name": "56",
+    "route_long_name": "J. Tutong-Tg Bunut-Sengkurong-Katimahar-Kg Lugu",
+    "route_type": "3"
+  },
+  {
+    "route_id": "57",
+    "route_short_name": "57",
+    "route_long_name": "Kiarong-Beribi-Katok B-Mata-Mata-RPN Kg Rimba-Empire",
+    "route_type": "3"
+  },
+  {
+    "route_id": "58",
+    "route_short_name": "58",
+    "route_long_name": "J. Gadong-J. Tungku-Rimba-ITB-UBD-JIS-Empire Hotel",
+    "route_type": "3"
+  },
+  {
+    "route_id": "EX",
+    "route_short_name": "EX",
+    "route_long_name": "BSB Bus Terminal - Brunei International Airport (Express)",
+    "route_type": "3"
+  }
+]
