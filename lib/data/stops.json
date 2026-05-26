@@ -25,19 +25,19 @@
   },
   {
     "stop_id": "01A_5",
-    "stop_name": "J. Menteri Besar (Custom / KHEU / Audit)",
+    "stop_name": "J. Menteri Besar (Kastam / KHEU / Audit)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "01A_6",
-    "stop_name": "Airport Lama (Fire & Rescue/Dental Clinic)",
+    "stop_name": "Airport Lama (Fire Rescue / Dental)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "01A_7",
-    "stop_name": "Airport Lama (TelBru / Building JKR)",
+    "stop_name": "Airport Lama (TelBru / Bangunan JKR)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -55,7 +55,7 @@
   },
   {
     "stop_id": "01A_10",
-    "stop_name": "J. Gadong (Under SHHB Bypass-NBT)",
+    "stop_name": "J. Gadong (Under SHHB Bypass / NBT)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -103,7 +103,7 @@
   },
   {
     "stop_id": "01A_18",
-    "stop_name": "J. RIPAS (Sri Complex/Laksamana CBT)",
+    "stop_name": "J. RIPAS (Sri Complex / Laksamana CBT)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -115,7 +115,7 @@
   },
   {
     "stop_id": "01A_20",
-    "stop_name": "J. RIPAS → Sumbiling",
+    "stop_name": "J. RIPAS - Sumbiling",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -151,7 +151,7 @@
   },
   {
     "stop_id": "01C_5",
-    "stop_name": "J. RIPAS (Sri Complex/Laksamana)",
+    "stop_name": "J. RIPAS (Sri Complex / Laksamana)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -181,7 +181,7 @@
   },
   {
     "stop_id": "01C_10",
-    "stop_name": "Masjid Jame'Asr (Spg 127)",
+    "stop_name": "Masjid Jame' Asr (Spg 127)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -217,7 +217,7 @@
   },
   {
     "stop_id": "01C_16",
-    "stop_name": "J. Gadong (Under SHHB Bypass/Shell Menglait)",
+    "stop_name": "J. Gadong (Under SHHB Bypass / Shell Menglait)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -229,13 +229,13 @@
   },
   {
     "stop_id": "01C_18",
-    "stop_name": "Airport Lama (Building - JKR)",
+    "stop_name": "Airport Lama (TelBru / Bangunan JKR)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "01C_19",
-    "stop_name": "Airport Lama (TelBru/Dental Clinic/Fire Rescue)",
+    "stop_name": "Airport Lama (TelBru / Dental Clinic / Fire Rescue)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -247,7 +247,7 @@
   },
   {
     "stop_id": "01C_21",
-    "stop_name": "J. Menteri Besar (Custom / KHEU / Audit)",
+    "stop_name": "J. Menteri Besar (Kastam / KHEU / Audit)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -259,7 +259,7 @@
   },
   {
     "stop_id": "01C_23",
-    "stop_name": "J. Kebangsaan (Mabohai / SupaSave)",
+    "stop_name": "J. Kebangsaan (Mabohai / Supasave)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -301,7 +301,7 @@
   },
   {
     "stop_id": "20_5",
-    "stop_name": "Kiulap Commercial (CA Mohammed/Hua Ho)",
+    "stop_name": "Kiulap Commercial (CA Mohammed / Hua Ho)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -385,7 +385,7 @@
   },
   {
     "stop_id": "20_19",
-    "stop_name": "Kiulap Commercial (CA Mohammed/Hua Ho)",
+    "stop_name": "Kiulap Commercial (CA Mohammed / Hua Ho)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -433,7 +433,7 @@
   },
   {
     "stop_id": "21_5",
-    "stop_name": "Kiarong Complex (Via SHHB Highway)",
+    "stop_name": "Kompleks Kiarong (Via SHHB Highway)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -463,13 +463,13 @@
   },
   {
     "stop_id": "21_10",
-    "stop_name": "J. Mata-Mata (Spg 25/ Masjid Kg Mata2)",
+    "stop_name": "J. Mata-Mata (Spg 25 / Masjid Kg Mata2)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "21_11",
-    "stop_name": "J. Mata-Mata (Spg 74/Perpindahan Mata2)",
+    "stop_name": "J. Mata-Mata (Spg 74 / Perpindahan Mata2)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -655,7 +655,7 @@
   },
   {
     "stop_id": "22_15",
-    "stop_name": "RPN Kg Rimba (Gerai Aneka/SM Rimba 1)",
+    "stop_name": "RPN Kg Rimba (Gerai Aneka / SM Rimba 1)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -697,13 +697,13 @@
   },
   {
     "stop_id": "22_22",
-    "stop_name": "UBD (Core & Hostel)/JIS",
+    "stop_name": "UBD (Core / Hostel) / JIS",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "22_23",
-    "stop_name": "JIS/UBD (Hostel & Core)",
+    "stop_name": "JIS / UBD (Hostel / Core)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -811,7 +811,7 @@
   },
   {
     "stop_id": "23_4",
-    "stop_name": "J. Kumbang Pasang (STPR / Riverview)",
+    "stop_name": "J. Kumbang Pasang (STPRI / Riverview)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -835,7 +835,7 @@
   },
   {
     "stop_id": "23_8",
-    "stop_name": "J. Berakas (Times Sq & Airport Mall)",
+    "stop_name": "J. Berakas (Times Sq / Airport Mall)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -859,7 +859,7 @@
   },
   {
     "stop_id": "23_12",
-    "stop_name": "J. Pasir Berakas (Masjid Lambak/SR Dato Mahawangsa)",
+    "stop_name": "J. Pasir Berakas (Masjid Lambak / SR Dato Mahawangsa)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -871,7 +871,7 @@
   },
   {
     "stop_id": "23_14",
-    "stop_name": "RPN Lambak Kiri (Masjid L. Kiri/SM L. Kiri)",
+    "stop_name": "RPN Lambak Kiri (Masjid L. Kiri / SM L. Kiri)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -991,7 +991,7 @@
   },
   {
     "stop_id": "24_5",
-    "stop_name": "J. Perdana Menteri (Masjid ash-Saliheen)",
+    "stop_name": "J. Perdana Menteri (Masjid Ash-Saliheen)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1009,7 +1009,7 @@
   },
   {
     "stop_id": "24_8",
-    "stop_name": "J. Berakas (Times Sq & Airport Mall)",
+    "stop_name": "J. Berakas (Times Sq / Airport Mall)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1033,7 +1033,7 @@
   },
   {
     "stop_id": "24_12",
-    "stop_name": "RPN Lambak Kanan (J. 1-SM PAPH Masna)",
+    "stop_name": "RPN Lambak Kanan (J. 1 / SM PAPH Masna)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1135,7 +1135,7 @@
   },
   {
     "stop_id": "24_29",
-    "stop_name": "J. Perdana Menteri (Masjid ash-Saliheen)",
+    "stop_name": "J. Perdana Menteri (Masjid Ash-Saliheen)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1189,13 +1189,13 @@
   },
   {
     "stop_id": "34_6",
-    "stop_name": "Airport Lama (Bangunan JKR / TelBru)",
+    "stop_name": "Airport Lama (TelBru / Bangunan JKR)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "34_7",
-    "stop_name": "Airport Lama (Dental / Fire Rescue)",
+    "stop_name": "Airport Lama (Fire Rescue / Dental)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1213,7 +1213,7 @@
   },
   {
     "stop_id": "34_10",
-    "stop_name": "J. Berakas (Kebajikan/Times Sq&Airport Mall)",
+    "stop_name": "J. Berakas (Kebajikan / Times Sq / Airport Mall)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1429,7 +1429,7 @@
   },
   {
     "stop_id": "35_17",
-    "stop_name": "J. Kianggeh (SM Chung Hwa/Pusat Belia)",
+    "stop_name": "J. Kianggeh (SM Chung Hwa / Pusat Belia)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1507,13 +1507,13 @@
   },
   {
     "stop_id": "36_13",
-    "stop_name": "J. Anggreek Desa",
+    "stop_name": "J. Anggrek Desa",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "36_14",
-    "stop_name": "Pancha Delima (SR Anggreek Desa)",
+    "stop_name": "Pancha Delima (SR Anggrek Desa)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1543,7 +1543,7 @@
   },
   {
     "stop_id": "36_19",
-    "stop_name": "J. Berakas (Shell TAIB/Opp Times Sq)",
+    "stop_name": "J. Berakas (Shell TAIB / Opp Times Sq)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1603,7 +1603,7 @@
   },
   {
     "stop_id": "36_29",
-    "stop_name": "J. Kianggeh (SM Chung Hwa/Pusat Belia)",
+    "stop_name": "J. Kianggeh (SM Chung Hwa / Pusat Belia)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1675,7 +1675,7 @@
   },
   {
     "stop_id": "37_12",
-    "stop_name": "J. Muara (Kg Sg Tilong/Kg Sg Hancing)",
+    "stop_name": "J. Muara (Kg Sg Tilong / Kg Sg Hancing)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1693,7 +1693,7 @@
   },
   {
     "stop_id": "37_15",
-    "stop_name": "J. Muara (Kg Salar/Kg Kapok/Shell Kapok)",
+    "stop_name": "J. Muara (Kg Salar / Kg Kapok / Shell Kapok)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1867,7 +1867,7 @@
   },
   {
     "stop_id": "38_8",
-    "stop_name": "J. Berakas (Kebajikan/Time Sq/Airport Mall)",
+    "stop_name": "J. Berakas (Kebajikan / Times Sq / Airport Mall)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -1879,7 +1879,7 @@
   },
   {
     "stop_id": "38_10",
-    "stop_name": "J. Muara (SM Berakas/Masjid M. Bolkiah)",
+    "stop_name": "J. Muara (SM Berakas / Masjid M. Bolkiah)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2011,7 +2011,7 @@
   },
   {
     "stop_id": "38_32",
-    "stop_name": "J. Muara (Hua Ho Manggis Mall)",
+    "stop_name": "J. Muara (Hua Ho Manggis)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2083,7 +2083,7 @@
   },
   {
     "stop_id": "39_2",
-    "stop_name": "J. Residency (Tanah Perkuburan/Cemetery)",
+    "stop_name": "J. Residency (Tanah Perkuburan / Cemetery)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2305,7 +2305,7 @@
   },
   {
     "stop_id": "39_39",
-    "stop_name": "J. Kota Batu-Kg Sg Lampas (Spg 214 / Fire Rescue)",
+    "stop_name": "J. Kota Batu - Kg Sg Lampas (Spg 214 / Fire Rescue)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2323,7 +2323,7 @@
   },
   {
     "stop_id": "42_2",
-    "stop_name": "Royal Regalia/Sumbiling (Fire & Rescue)",
+    "stop_name": "Royal Regalia / Sumbiling (Fire & Rescue)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2335,7 +2335,7 @@
   },
   {
     "stop_id": "42_4",
-    "stop_name": "J. RIPAS (Sri Complex/KUPUSB/Tumasek)",
+    "stop_name": "J. RIPAS (Sri Complex / KUPUSB / Tumasek)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2365,7 +2365,7 @@
   },
   {
     "stop_id": "42_9",
-    "stop_name": "J. Tutong (Opp National Inn/J. Hj Halus)",
+    "stop_name": "J. Tutong (Opp National Inn / J. Hj Halus)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2407,13 +2407,13 @@
   },
   {
     "stop_id": "42_16",
-    "stop_name": "J. Tutong (J.Pasai 1/Ban 3/Spg 102)",
+    "stop_name": "J. Tutong (J. Pasai 1 / Ban 3 / Spg 102)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "42_17",
-    "stop_name": "J. Mulaut/Limau Manis (Ayamku)",
+    "stop_name": "J. Mulaut / Limau Manis (Ayamku)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2443,7 +2443,7 @@
   },
   {
     "stop_id": "42_22",
-    "stop_name": "J. Mulaut/Limau Manis (Spg 1043/1133/1145/1253)",
+    "stop_name": "J. Mulaut / Limau Manis (Spg 1043/1133/1145/1253)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2473,7 +2473,7 @@
   },
   {
     "stop_id": "42_27",
-    "stop_name": "J. Mulaut/Limau Manis (Spg 816 / 884 / 938)",
+    "stop_name": "J. Mulaut / Limau Manis (Spg 816 / 884 / 938)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2509,13 +2509,13 @@
   },
   {
     "stop_id": "42_33",
-    "stop_name": "J. Mulaut/Limau Manis (S. Ugama Mulaut)",
+    "stop_name": "J. Mulaut / Limau Manis (S. Ugama Mulaut)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "42_34",
-    "stop_name": "J. Mulaut / Limau Manis (J. Pasai2/Spg 58/102)",
+    "stop_name": "J. Mulaut / Limau Manis (J. Pasai 2/Spg 58/102)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2545,7 +2545,7 @@
   },
   {
     "stop_id": "42_39",
-    "stop_name": "J. Tutong (Spg 728/774/J. Dadap)",
+    "stop_name": "J. Tutong (Spg 728 / 774 / J. Dadap)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2557,7 +2557,7 @@
   },
   {
     "stop_id": "42_41",
-    "stop_name": "J. Tutong (Opp Taman Puri/National Inn)",
+    "stop_name": "J. Tutong (Opp Taman Puri / National Inn)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2575,7 +2575,7 @@
   },
   {
     "stop_id": "42_44",
-    "stop_name": "J. RIPAS (Tumasek/KUPUSB)",
+    "stop_name": "J. RIPAS (Tumasek / KUPUSB)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2617,7 +2617,7 @@
   },
   {
     "stop_id": "44_5",
-    "stop_name": "J. RIPAS (Sri Complex/KUPUSB)",
+    "stop_name": "J. RIPAS (Sri Complex / KUPUSB)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2785,7 +2785,7 @@
   },
   {
     "stop_id": "45_5",
-    "stop_name": "J. RIPAS (Sri Complex/KUPUSB)",
+    "stop_name": "J. RIPAS (Sri Complex / KUPUSB)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2875,7 +2875,7 @@
   },
   {
     "stop_id": "45_20",
-    "stop_name": "J. Tutong (Hua Ho/Masjid Sengkurong)",
+    "stop_name": "J. Tutong (Hua Ho / Masjid Sengkurong)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -2929,7 +2929,7 @@
   },
   {
     "stop_id": "45_29",
-    "stop_name": "J. RIPAS (KUPUSB/Mile 1-Batu 1)",
+    "stop_name": "J. RIPAS (KUPUSB / Mile 1-Batu 1)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3025,7 +3025,7 @@
   },
   {
     "stop_id": "49_14",
-    "stop_name": "J. Mulaut Limau Manis (Spg Ban 4)",
+    "stop_name": "J. Mulaut / Limau Manis (Spg Ban 4)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3061,7 +3061,7 @@
   },
   {
     "stop_id": "49_20",
-    "stop_name": "J. Mulaut Limau Manis (Spg 238)",
+    "stop_name": "J. Mulaut / Limau Manis (Spg 238)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3073,7 +3073,7 @@
   },
   {
     "stop_id": "49_22",
-    "stop_name": "J. Mulaut Limau Manis (Spg Bebatik Kilanas)",
+    "stop_name": "J. Mulaut / Limau Manis (Spg Bebatik Kilanas)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3157,7 +3157,7 @@
   },
   {
     "stop_id": "55_5",
-    "stop_name": "J. Gadong (Riverview/Shell Gadong/NBT)",
+    "stop_name": "J. Gadong (Riverview / Shell Gadong / NBT)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3181,7 +3181,7 @@
   },
   {
     "stop_id": "55_9",
-    "stop_name": "J. Gadong (Beribi Industry/BINA)",
+    "stop_name": "J. Gadong (Beribi Industry / BINA)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3193,7 +3193,7 @@
   },
   {
     "stop_id": "55_11",
-    "stop_name": "J. Gadong (Opp. Sunshine Sch)",
+    "stop_name": "J. Gadong (Opp. Sunshine School)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3265,7 +3265,7 @@
   },
   {
     "stop_id": "55_23",
-    "stop_name": "J. Jerudong (Masjid Al Ameerah/H. Lodge)",
+    "stop_name": "J. Jerudong (Masjid Al Ameerah / H. Lodge)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3361,7 +3361,7 @@
   },
   {
     "stop_id": "55_39",
-    "stop_name": "J. Gadong (Sunshine Sch.)",
+    "stop_name": "J. Gadong (Sunshine School)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3391,13 +3391,13 @@
   },
   {
     "stop_id": "55_44",
-    "stop_name": "J. Gadong (NBT/ Shell Menglait)",
+    "stop_name": "J. Gadong (NBT / Shell Menglait)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "55_45",
-    "stop_name": "J. Gadong (Jerambak/Riverview)",
+    "stop_name": "J. Gadong (Jerambak / Riverview)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3481,7 +3481,7 @@
   },
   {
     "stop_id": "56_11",
-    "stop_name": "J. Tutong (Opp Tmn Puri/National Inn)",
+    "stop_name": "J. Tutong (Opp Taman Puri / National Inn)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3529,7 +3529,7 @@
   },
   {
     "stop_id": "56_19",
-    "stop_name": "J. Tutong (Shell SATENAGA/Spg 1737)",
+    "stop_name": "J. Tutong (Shell SATENAGA / Spg 1737)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3571,7 +3571,7 @@
   },
   {
     "stop_id": "56_26",
-    "stop_name": "J. Tutong (Hua Ho/Masjid Sengkurong)",
+    "stop_name": "J. Tutong (Hua Ho / Masjid Sengkurong)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3631,7 +3631,7 @@
   },
   {
     "stop_id": "56_36",
-    "stop_name": "J. Tutong (National Inn/Tmn Puri)",
+    "stop_name": "J. Tutong (National Inn / Taman Puri)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3655,7 +3655,7 @@
   },
   {
     "stop_id": "56_40",
-    "stop_name": "J. RIPAS (Shell Tumasek/KUPUSB)",
+    "stop_name": "J. RIPAS (Shell Tumasek / KUPUSB)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3697,13 +3697,13 @@
   },
   {
     "stop_id": "57_5",
-    "stop_name": "Kompleks Kiarong (Via SHB Highway)",
+    "stop_name": "Kompleks Kiarong (Via SHHB Highway)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "57_6",
-    "stop_name": "J. Dato Ratna Kiarong (SR Kiarong)",
+    "stop_name": "J. Dato Ratna Kiarong (SR. Kiarong)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3721,7 +3721,7 @@
   },
   {
     "stop_id": "57_9",
-    "stop_name": "PTE Katok/Kg Katok B/Kg Mata-Mata",
+    "stop_name": "PTE Katok / Kg Katok B / Kg Mata-Mata",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3745,7 +3745,7 @@
   },
   {
     "stop_id": "57_13",
-    "stop_name": "RPN Kg Rimba (Gerai Aneka-SM Rimba 1)",
+    "stop_name": "RPN Kg Rimba (Gerai Aneka / SM Rimba 1)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3757,7 +3757,7 @@
   },
   {
     "stop_id": "57_15",
-    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba2)",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba 2)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3805,7 +3805,7 @@
   },
   {
     "stop_id": "57_23",
-    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba2)",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba 2)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3817,7 +3817,7 @@
   },
   {
     "stop_id": "57_25",
-    "stop_name": "RPN Kg Rimba (SM Rimba 1-Gerai Aneka)",
+    "stop_name": "RPN Kg Rimba (SM Rimba 1 / Gerai Aneka)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3841,7 +3841,7 @@
   },
   {
     "stop_id": "57_29",
-    "stop_name": "Kg Mata2/Katok B/PTE Katok",
+    "stop_name": "Kg Mata2 / Katok B / PTE Katok",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3859,7 +3859,7 @@
   },
   {
     "stop_id": "57_32",
-    "stop_name": "J. Dato Ratna Kiarong (SR Kiarong)",
+    "stop_name": "J. Dato Ratna Kiarong (SR. Kiarong)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3871,7 +3871,7 @@
   },
   {
     "stop_id": "57_34",
-    "stop_name": "J. RIPAS Via SHB Highway",
+    "stop_name": "J. RIPAS Via SHHB Highway",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3913,7 +3913,7 @@
   },
   {
     "stop_id": "58_5",
-    "stop_name": "J. Gadong (Riverview/Shell Gadong / NBT)",
+    "stop_name": "J. Gadong (Riverview / Shell Gadong / NBT)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -3949,13 +3949,13 @@
   },
   {
     "stop_id": "58_11",
-    "stop_name": "RPN Kg Rimba (Gerai Aneka/SM Rimba 1)",
+    "stop_name": "RPN Kg Rimba (Gerai Aneka / SM Rimba 1)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "58_12",
-    "stop_name": "RPN Kg Rimba (Jln 60 / 2 / 99 / Giant)",
+    "stop_name": "RPN Kg Rimba (J. 60 / 2 / 99 / Giant)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -4045,19 +4045,19 @@
   },
   {
     "stop_id": "58_27",
-    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba2)",
+    "stop_name": "RPN Kg Rimba (J. 3 - SR Rimba 2)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "58_28",
-    "stop_name": "RPN Kg Rimba (Jln 99 / 2 / 60 / Giant)",
+    "stop_name": "RPN Kg Rimba (J. 99 / 2 / 60 / Giant)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
   {
     "stop_id": "58_29",
-    "stop_name": "RPN Kg Rimba (SM Rimba 1/Gerai Aneka)",
+    "stop_name": "RPN Kg Rimba (SM Rimba 1 / Gerai Aneka)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
@@ -4081,7 +4081,7 @@
   },
   {
     "stop_id": "58_33",
-    "stop_name": "J. Gadong (K.Warisan Mata2/Traffic Lt Gadong/Shell Menglait)",
+    "stop_name": "J. Gadong (Kompleks Warisan Mata2 / Traffic Light Gadong / Shell Menglait)",
     "stop_lat": "0.0",
     "stop_lon": "0.0"
   },
