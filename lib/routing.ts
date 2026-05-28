@@ -65,7 +65,14 @@ export function findRoute(
     for (const s of tripStops.get(tripId) ?? []) destAllStops.add(s.stop_name_clean)
   }
 
-  const transferStops = [...originAllStops].filter(s => destAllStops.has(s))
+  const BSB_TERMINAL = 'bsb bus terminal'
+  const transferStops = [...originAllStops]
+    .filter(s => destAllStops.has(s))
+    .sort((a, b) => {
+      if (a === BSB_TERMINAL) return 1
+      if (b === BSB_TERMINAL) return -1
+      return 0
+    })
 
   for (const transferClean of transferStops) {
     if (transferClean === originClean || transferClean === destClean) continue
