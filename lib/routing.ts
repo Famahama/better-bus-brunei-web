@@ -54,7 +54,7 @@ export function findRoute(
     return results.slice(0, 3)
   }
 
-  // Transfer routes (1 change)
+  // Transfer routes (1 change) — collect all, sort by total stops, return best 3
   const originAllStops = new Set<string>()
   for (const [tripId] of originTripMap) {
     for (const s of tripStops.get(tripId) ?? []) originAllStops.add(s.stop_name_clean)
@@ -65,14 +65,7 @@ export function findRoute(
     for (const s of tripStops.get(tripId) ?? []) destAllStops.add(s.stop_name_clean)
   }
 
-  const BSB_TERMINAL = 'bsb bus terminal'
-  const transferStops = [...originAllStops]
-    .filter(s => destAllStops.has(s))
-    .sort((a, b) => {
-      if (a === BSB_TERMINAL) return 1
-      if (b === BSB_TERMINAL) return -1
-      return 0
-    })
+  const transferStops = [...originAllStops].filter(s => destAllStops.has(s))
 
   for (const transferClean of transferStops) {
     if (transferClean === originClean || transferClean === destClean) continue
@@ -112,11 +105,13 @@ export function findRoute(
             },
           ],
         })
-
-        if (results.length >= 3) return results.slice(0, 3)
       }
     }
   }
 
+  results.sort((a, b) =>
+    a.legs.reduce((s, l) => s + l.stops_count, 0) -
+    b.legs.reduce((s, l) => s + l.stops_count, 0)
+  )
   return results.slice(0, 3)
 }
