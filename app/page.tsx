@@ -30,7 +30,7 @@ import { findRoute } from '@/lib/routing'
 import { TRANSLATIONS, getRouteColor, cleanHeadsign } from '@/lib/constants'
 import type { Language, JourneyResult, Leg } from '@/lib/types'
 
-const LANGUAGES: Language[] = ['English', 'Melayu', '中文', 'বাংলা', 'हिन्दी']
+const LANGUAGES: Language[] = ['English', 'Melayu', '中文', 'বাংলা', 'हिन्दी', 'Filipino']
 const JPD_MAP_URL = 'https://www.jpd.gov.bn/SiteAssets/Site%20Pages/BRUNEI%20Bus%20Route/New%20Bus%20Route%20English%20Version.jpg'
 
 const filterOptions = createFilterOptions<string>({ matchFrom: 'any' })
@@ -128,13 +128,16 @@ function ResultCard({ result, index, t }: { result: JourneyResult; index: number
 }
 
 function BetterBusApp() {
-  const [lang, setLang]       = useState<Language>('English')
-  const [tab, setTab]         = useState(0)
-  const [origin, setOrigin]   = useState<string | null>(null)
-  const [dest, setDest]       = useState<string | null>(null)
-  const [results, setResults] = useState<JourneyResult[] | null>(null)
-  const [warning, setWarning] = useState<string | null>(null)
+  const [lang, setLang]             = useState<Language>('English')
+  const [tab, setTab]               = useState(0)
+  const [origin, setOrigin]         = useState<string | null>(null)
+  const [dest, setDest]             = useState<string | null>(null)
+  const [originInput, setOriginInput] = useState('')
+  const [destInput, setDestInput]   = useState('')
+  const [results, setResults]       = useState<JourneyResult[] | null>(null)
+  const [warning, setWarning]       = useState<string | null>(null)
   const [browseStop, setBrowseStop] = useState<string | null>(null)
+  const [browseInput, setBrowseInput] = useState('')
 
   const t = TRANSLATIONS[lang]
   const { allStops, stopRoutes, tripStops } = graph
@@ -147,7 +150,18 @@ function BetterBusApp() {
   }
 
   function handleSwap() {
-    setOrigin(dest); setDest(origin); setResults(null); setWarning(null)
+    setOrigin(dest); setDest(origin)
+    setOriginInput(destInput); setDestInput(originInput)
+    setResults(null); setWarning(null)
+  }
+
+  // iOS fires onInputChange with reason='reset' and value='' when the keyboard
+  // dismisses — ignore that specific case to prevent typed text disappearing.
+  function guardInput(set: (v: string) => void) {
+    return (_: React.SyntheticEvent, v: string, reason: string) => {
+      if (reason === 'reset' && v === '') return
+      set(v)
+    }
   }
 
   const browseRoutes = useMemo(() => {
@@ -195,7 +209,9 @@ function BetterBusApp() {
             <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem' }}>
               {t.origin}
             </Typography>
-            <Autocomplete options={allStops} value={origin} onChange={(_, v) => { setOrigin(v); setResults(null) }}
+            <Autocomplete options={allStops} value={origin} inputValue={originInput}
+              onChange={(_, v) => { setOrigin(v); setResults(null) }}
+              onInputChange={guardInput(setOriginInput)}
               filterOptions={filterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop} size='small' sx={{ mt: 0.75, mb: 1.5 }} />} />
 
@@ -209,7 +225,9 @@ function BetterBusApp() {
             <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem' }}>
               {t.destination}
             </Typography>
-            <Autocomplete options={allStops} value={dest} onChange={(_, v) => { setDest(v); setResults(null) }}
+            <Autocomplete options={allStops} value={dest} inputValue={destInput}
+              onChange={(_, v) => { setDest(v); setResults(null) }}
+              onInputChange={guardInput(setDestInput)}
               filterOptions={filterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop} size='small' sx={{ mt: 0.75, mb: 2 }} />} />
 
@@ -250,7 +268,9 @@ function BetterBusApp() {
             <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem' }}>
               {t.stop_label}
             </Typography>
-            <Autocomplete options={allStops} value={browseStop} onChange={(_, v) => setBrowseStop(v)}
+            <Autocomplete options={allStops} value={browseStop} inputValue={browseInput}
+              onChange={(_, v) => setBrowseStop(v)}
+              onInputChange={guardInput(setBrowseInput)}
               filterOptions={filterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop_browse} size='small' sx={{ mt: 0.75, mb: 2 }} />} />
 
