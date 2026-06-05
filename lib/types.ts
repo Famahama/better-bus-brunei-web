@@ -37,4 +37,4 @@ export interface GraphData {
   allStops: string[]
 }
 
-export type Language = 'English' | 'Melayu' | '中文' | 'বাংলা' | 'हिन्दी'
+export type Language = 'English' | 'Melayu' | '中文' | 'বাংলা' | 'हिन्दी' | 'Filipino'
