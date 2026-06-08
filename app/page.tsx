@@ -20,11 +20,14 @@ import Collapse from '@mui/material/Collapse'
 import Divider from '@mui/material/Divider'
 import Alert from '@mui/material/Alert'
 import IconButton from '@mui/material/IconButton'
+import CircularProgress from '@mui/material/CircularProgress'
 import SwapVertIcon from '@mui/icons-material/SwapVert'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import ExpandLessIcon from '@mui/icons-material/ExpandLess'
+import MyLocationIcon from '@mui/icons-material/MyLocation'
 
 import theme from './theme'
+import { supabase } from '@/lib/supabase'
 import { buildGraph } from '@/lib/gtfs'
 import { findRoute } from '@/lib/routing'
 import { TRANSLATIONS, getRouteColor, cleanHeadsign } from '@/lib/constants'
@@ -138,6 +141,8 @@ function BetterBusApp() {
   const [warning, setWarning]       = useState<string | null>(null)
   const [browseStop, setBrowseStop] = useState<string | null>(null)
   const [browseInput, setBrowseInput] = useState('')
+  const [locState, setLocState] = useState<'idle' | 'getting' | 'confirming' | 'submitting' | 'success' | 'error'>('idle')
+  const [locCoords, setLocCoords] = useState<{ lat: number; lng: number; accuracy: number } | null>(null)
 
   const t = TRANSLATIONS[lang]
   const { allStops, stopRoutes, tripStops } = graph
@@ -162,6 +167,33 @@ function BetterBusApp() {
       if (reason === 'reset' && v === '') return
       set(v)
     }
+  }
+
+  function handleSubmitLocation() {
+    if (!browseStop) return
+    setLocState('getting')
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setLocCoords({ lat: pos.coords.latitude, lng: pos.coords.longitude, accuracy: pos.coords.accuracy })
+        setLocState('confirming')
+      },
+      () => setLocState('error'),
+      { enableHighAccuracy: true, timeout: 10000 }
+    )
+  }
+
+  async function handleConfirmLocation() {
+    if (!browseStop || !locCoords) return
+    setLocState('submitting')
+    const stopId = stopRoutes.get(browseStop.trim().toLowerCase())?.[0]?.stop_id ?? ''
+    const { error } = await supabase.from('stop_coordinate_submissions').insert({
+      stop_id: stopId,
+      stop_name: browseStop,
+      lat: locCoords.lat,
+      lng: locCoords.lng,
+      accuracy_meters: locCoords.accuracy,
+    })
+    setLocState(error ? 'error' : 'success')
   }
 
   const browseRoutes = useMemo(() => {
@@ -269,7 +301,7 @@ function BetterBusApp() {
               {t.stop_label}
             </Typography>
             <Autocomplete options={allStops} value={browseStop} inputValue={browseInput}
-              onChange={(_, v) => setBrowseStop(v)}
+              onChange={(_, v) => { setBrowseStop(v); setLocState('idle'); setLocCoords(null) }}
               onInputChange={guardInput(setBrowseInput)}
               filterOptions={filterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop_browse} size='small' sx={{ mt: 0.75, mb: 2 }} />} />
@@ -305,6 +337,56 @@ function BetterBusApp() {
                   </CardContent>
                 </Card>
               </>
+            )}
+
+            {browseStop && locState === 'idle' && (
+              <Button variant='outlined' size='small' startIcon={<MyLocationIcon />}
+                onClick={handleSubmitLocation}
+                sx={{ mt: 2, borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+                Submit my location for this stop
+              </Button>
+            )}
+
+            {browseStop && (locState === 'getting' || locState === 'submitting') && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 2 }}>
+                <CircularProgress size={14} sx={{ color: 'primary.main' }} />
+                <Typography variant='caption' color='text.secondary'>
+                  {locState === 'getting' ? 'Getting your location...' : 'Submitting...'}
+                </Typography>
+              </Box>
+            )}
+
+            {browseStop && locState === 'confirming' && locCoords && (
+              <Card sx={{ mt: 2, bgcolor: '#1A1A1A' }}>
+                <CardContent>
+                  <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1.5 }}>
+                    Submit <strong style={{ color: '#E8E8E8' }}>{locCoords.lat.toFixed(5)}°N, {locCoords.lng.toFixed(5)}°E</strong>{' '}
+                    (±{Math.round(locCoords.accuracy)}m) as the location for <strong style={{ color: '#E8E8E8' }}>{browseStop}</strong>?
+                  </Typography>
+                  <Box sx={{ display: 'flex', gap: 1 }}>
+                    <Button size='small' variant='contained' onClick={handleConfirmLocation}
+                      sx={{ bgcolor: 'primary.main', color: '#0D0D0D', fontWeight: 700, borderRadius: 2 }}>
+                      Confirm
+                    </Button>
+                    <Button size='small' variant='outlined' onClick={() => setLocState('idle')}
+                      sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2 }}>
+                      Cancel
+                    </Button>
+                  </Box>
+                </CardContent>
+              </Card>
+            )}
+
+            {browseStop && locState === 'success' && (
+              <Alert severity='success' sx={{ mt: 2, bgcolor: '#0a2a0a', color: '#6EDC8C', border: '1px solid #1a4a1a' }}>
+                Thank you! Your location has been submitted.
+              </Alert>
+            )}
+
+            {browseStop && locState === 'error' && (
+              <Alert severity='error' sx={{ mt: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
+                Could not get location. Please ensure location access is enabled.
+              </Alert>
             )}
           </Box>
         )}
