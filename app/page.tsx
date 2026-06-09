@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import Box from '@mui/material/Box'
@@ -63,7 +63,7 @@ function RouteBadge({ route }: { route: string }) {
 
 type T = typeof TRANSLATIONS['English']
 
-function LegDetail({ leg, t }: { leg: Leg; t: T }) {
+function LegDetail({ leg, t, shadedStops }: { leg: Leg; t: T; shadedStops: Set<string> }) {
   const [open, setOpen] = useState(false)
   const noun = leg.stops_count === 1 ? t.stop_singular : t.stop_plural
   const stopsText = t.stops_along.replace('{n}', String(leg.stops_count)).replace('{noun}', noun)
@@ -77,9 +77,9 @@ function LegDetail({ leg, t }: { leg: Leg; t: T }) {
             {cleanHeadsign(leg.direction)}
           </Typography>
           <Typography variant='caption' sx={{ color: 'text.secondary', display: 'block', mt: 0.25 }}>
-            {t.board_at} <strong style={{ color: '#E8E8E8' }}>{leg.board}</strong>
+            {t.board_at} <strong style={{ color: '#E8E8E8' }}>{leg.board}</strong>{shadedStops.has(leg.board) ? ' 🌂' : ''}
             {' · '}
-            {t.alight_at} <strong style={{ color: '#E8E8E8' }}>{leg.alight}</strong>
+            {t.alight_at} <strong style={{ color: '#E8E8E8' }}>{leg.alight}</strong>{shadedStops.has(leg.alight) ? ' 🌂' : ''}
           </Typography>
           <Typography variant='caption' color='text.secondary'>{stopsText}</Typography>
         </Box>
@@ -103,7 +103,7 @@ function LegDetail({ leg, t }: { leg: Leg; t: T }) {
   )
 }
 
-function ResultCard({ result, index, t }: { result: JourneyResult; index: number; t: T }) {
+function ResultCard({ result, index, t, shadedStops }: { result: JourneyResult; index: number; t: T; shadedStops: Set<string> }) {
   const label = result.type === 'direct' ? t.direct : t.transfer
   return (
     <Card sx={{ mt: 2, bgcolor: '#1A1A1A' }}>
@@ -117,7 +117,7 @@ function ResultCard({ result, index, t }: { result: JourneyResult; index: number
         </Box>
         {result.legs.map((leg, j) => (
           <React.Fragment key={j}>
-            <LegDetail leg={leg} t={t} />
+            <LegDetail leg={leg} t={t} shadedStops={shadedStops} />
             {j < result.legs.length - 1 && (
               <Box sx={{ display: 'inline-block', my: 1.5, px: 1, py: 0.25, border: '1px solid', borderColor: 'primary.main', borderRadius: '4px', color: 'primary.main', fontFamily: 'var(--font-mono)', fontSize: '0.6rem', letterSpacing: 1 }}>
                 ⇄ {t.transfer_at} {result.legs[j + 1].board.toUpperCase()}
@@ -143,6 +143,8 @@ function BetterBusApp() {
   const [browseInput, setBrowseInput] = useState('')
   const [locState, setLocState] = useState<'idle' | 'getting' | 'confirming' | 'submitting' | 'success' | 'error'>('idle')
   const [locCoords, setLocCoords] = useState<{ lat: number; lng: number; accuracy: number } | null>(null)
+  const [shadedStops, setShadedStops] = useState<Set<string>>(new Set())
+  const [shadeState, setShadeState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
 
   const t = TRANSLATIONS[lang]
   const { allStops, stopRoutes, tripStops } = graph
@@ -167,6 +169,43 @@ function BetterBusApp() {
       if (reason === 'reset' && v === '') return
       set(v)
     }
+  }
+
+  useEffect(() => {
+    supabase.from('stop_shade_reports').select('stop_name, has_shade').then(({ data }) => {
+      if (!data) return
+      const votes: Record<string, { yes: number; no: number }> = {}
+      for (const row of data) {
+        if (!votes[row.stop_name]) votes[row.stop_name] = { yes: 0, no: 0 }
+        if (row.has_shade) votes[row.stop_name].yes++
+        else votes[row.stop_name].no++
+      }
+      const shaded = new Set<string>()
+      for (const [name, v] of Object.entries(votes)) {
+        if (v.yes > v.no) shaded.add(name)
+      }
+      setShadedStops(shaded)
+    })
+  }, [])
+
+  async function handleShadeReport(hasShade: boolean) {
+    if (!browseStop) return
+    setShadeState('submitting')
+    const stopId = stopRoutes.get(browseStop.trim().toLowerCase())?.[0]?.stop_id ?? ''
+    const { error } = await supabase.from('stop_shade_reports').insert({
+      stop_id: stopId,
+      stop_name: browseStop,
+      has_shade: hasShade,
+    })
+    if (!error) {
+      setShadedStops(prev => {
+        const updated = new Set(prev)
+        if (hasShade) updated.add(browseStop)
+        else updated.delete(browseStop)
+        return updated
+      })
+    }
+    setShadeState(error ? 'error' : 'success')
   }
 
   function handleSubmitLocation() {
@@ -284,7 +323,7 @@ function BetterBusApp() {
               </Card>
             )}
 
-            {results?.map((r, i) => <ResultCard key={i} result={r} index={i} t={t} />)}
+            {results?.map((r, i) => <ResultCard key={i} result={r} index={i} t={t} shadedStops={shadedStops} />)}
           </Box>
         )}
 
@@ -301,7 +340,7 @@ function BetterBusApp() {
               {t.stop_label}
             </Typography>
             <Autocomplete options={allStops} value={browseStop} inputValue={browseInput}
-              onChange={(_, v) => { setBrowseStop(v); setLocState('idle'); setLocCoords(null) }}
+              onChange={(_, v) => { setBrowseStop(v); setLocState('idle'); setLocCoords(null); setShadeState('idle') }}
               onInputChange={guardInput(setBrowseInput)}
               filterOptions={filterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop_browse} size='small' sx={{ mt: 0.75, mb: 2 }} />} />
@@ -337,6 +376,49 @@ function BetterBusApp() {
                   </CardContent>
                 </Card>
               </>
+            )}
+
+            {browseStop && shadedStops.has(browseStop) && (
+              <Typography variant='caption' sx={{ display: 'block', mt: 2, color: '#6EDC8C' }}>
+                🌂 This stop has shade
+              </Typography>
+            )}
+
+            {browseStop && shadeState === 'idle' && (
+              <Box sx={{ mt: 2 }}>
+                <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
+                  Does this stop have shade?
+                </Typography>
+                <Box sx={{ display: 'flex', gap: 1 }}>
+                  <Button size='small' variant='outlined' onClick={() => handleShadeReport(true)}
+                    sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+                    🌂 Yes
+                  </Button>
+                  <Button size='small' variant='outlined' onClick={() => handleShadeReport(false)}
+                    sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+                    ☀️ No
+                  </Button>
+                </Box>
+              </Box>
+            )}
+
+            {browseStop && shadeState === 'submitting' && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 2 }}>
+                <CircularProgress size={14} sx={{ color: 'primary.main' }} />
+                <Typography variant='caption' color='text.secondary'>Submitting...</Typography>
+              </Box>
+            )}
+
+            {browseStop && shadeState === 'success' && (
+              <Alert severity='success' sx={{ mt: 2, bgcolor: '#0a2a0a', color: '#6EDC8C', border: '1px solid #1a4a1a' }}>
+                Thanks for the report!
+              </Alert>
+            )}
+
+            {browseStop && shadeState === 'error' && (
+              <Alert severity='error' sx={{ mt: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
+                Submission failed. Please try again.
+              </Alert>
             )}
 
             {browseStop && locState === 'idle' && (
