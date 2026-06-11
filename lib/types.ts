@@ -38,3 +38,10 @@ export interface GraphData {
 }
 
 export type Language = 'English' | 'Melayu' | '中文' | 'বাংলা' | 'हिन्दी' | 'Filipino'
+
+export interface StopPin {
+  stop_id: string
+  stop_name: string
+  lat: number
+  lng: number
+}

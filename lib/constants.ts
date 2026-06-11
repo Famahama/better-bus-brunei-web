@@ -26,7 +26,7 @@ export type TranslationKey =
   | 'option' | 'direct' | 'transfer' | 'board_at' | 'alight_at'
   | 'stops_along' | 'stop_singular' | 'stop_plural' | 'transfer_at'
   | 'show_stops' | 'stop_label' | 'select_stop_browse' | 'routes_here'
-  | 'stop_seq' | 'view_map' | 'terminal_notice'
+  | 'stop_seq' | 'view_map' | 'terminal_notice' | 'tab_map' | 'map_no_pins'
 
 export type Translations = Record<TranslationKey, string>
 
@@ -60,6 +60,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     stop_seq:           'Stop {seq} of {total}',
     view_map:           'View full network map ↗',
     terminal_notice:    '⚠ BSB Bus Terminal is currently not in service.',
+    tab_map:            'Map',
+    map_no_pins:        'No stop locations yet. Be the first — use the Where am I? tab to submit your location.',
   },
   Melayu: {
     subtitle:           'Penemuan laluan bas awam · Daerah Brunei-Muara · Daerah lain akan datang',
@@ -90,6 +92,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     stop_seq:           'Perhentian ke-{seq} daripada {total}',
     view_map:           'Lihat peta rangkaian penuh ↗',
     terminal_notice:    '⚠ Terminal Bas BSB kini tidak beroperasi.',
+    tab_map:            'Peta',
+    map_no_pins:        'Tiada lokasi perhentian lagi. Jadilah yang pertama — guna tab Di mana saya? untuk hantar lokasi anda.',
   },
   '中文': {
     subtitle:           '公共巴士路线发现 · 文莱-摩拉区 · 其他区域即将推出',
@@ -120,6 +124,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     stop_seq:           '第{seq}站，共{total}站',
     view_map:           '查看完整网络地图 ↗',
     terminal_notice:    '⚠ BSB巴士总站目前停止运营。',
+    tab_map:            '地图',
+    map_no_pins:        '暂无站点位置。成为第一个贡献者——在"我在哪里？"标签提交您的位置。',
   },
   'বাংলা': {
     subtitle:           'পাবলিক বাস রুট আবিষ্কার · ব্রুনাই-মুয়ারা জেলা · অন্যান্য জেলা শীঘ্রই',
@@ -150,6 +156,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     stop_seq:           '{total}টির মধ্যে {seq}নং স্টপ',
     view_map:           'সম্পূর্ণ নেটওয়ার্ক মানচিত্র দেখুন ↗',
     terminal_notice:    '⚠ BSB বাস টার্মিনাল বর্তমানে চালু নেই।',
+    tab_map:            'মানচিত্র',
+    map_no_pins:        'এখনও কোনো স্টপ লোকেশন নেই। প্রথম হন — আমি কোথায়? ট্যাব থেকে আপনার লোকেশন জমা দিন।',
   },
   'हिन्दी': {
     subtitle:           'सार्वजनिक बस रूट खोज · ब्रुनेई-मुआरा जिला · अन्य जिले जल्द आ रहे हैं',
@@ -180,6 +188,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     stop_seq:           '{total} में से {seq}वाँ स्टॉप',
     view_map:           'पूर्ण नेटवर्क मानचित्र देखें ↗',
     terminal_notice:    '⚠ BSB बस टर्मिनल वर्तमान में सेवा में नहीं है।',
+    tab_map:            'मानचित्र',
+    map_no_pins:        'अभी कोई स्टॉप स्थान नहीं है। पहले बनें — मैं कहाँ हूँ? टैब से अपना स्थान सबमिट करें।',
   },
   Filipino: {
     subtitle:           'Paghahanap ng ruta ng pampublikong bus · Distrito ng Brunei-Muara · Iba pang distrito ay paparating',
@@ -210,5 +220,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     stop_seq:           'Himpilan {seq} ng {total}',
     view_map:           'Tingnan ang buong mapa ng network ↗',
     terminal_notice:    '⚠ Ang BSB Bus Terminal ay kasalukuyang hindi nag-ooperate.',
+    tab_map:            'Mapa',
+    map_no_pins:        'Wala pang lokasyon ng himpilan. Maging una — gamitin ang Nasaan ako? tab para isumite ang iyong lokasyon.',
   },
 }

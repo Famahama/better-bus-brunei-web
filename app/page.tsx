@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useMemo, useEffect } from 'react'
+import dynamic from 'next/dynamic'
 import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import Box from '@mui/material/Box'
@@ -28,6 +29,9 @@ import MyLocationIcon from '@mui/icons-material/MyLocation'
 
 import theme from './theme'
 import { supabase } from '@/lib/supabase'
+import type { StopPin } from '@/lib/types'
+
+const StopMap = dynamic(() => import('@/components/StopMap'), { ssr: false })
 import { buildGraph } from '@/lib/gtfs'
 import { findRoute } from '@/lib/routing'
 import { TRANSLATIONS, getRouteColor, cleanHeadsign } from '@/lib/constants'
@@ -145,6 +149,7 @@ function BetterBusApp() {
   const [locCoords, setLocCoords] = useState<{ lat: number; lng: number; accuracy: number } | null>(null)
   const [shadedStops, setShadedStops] = useState<Set<string>>(new Set())
   const [shadeState, setShadeState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
+  const [pins, setPins] = useState<StopPin[]>([])
 
   const t = TRANSLATIONS[lang]
   const { allStops, stopRoutes, tripStops } = graph
@@ -170,6 +175,24 @@ function BetterBusApp() {
       set(v)
     }
   }
+
+  useEffect(() => {
+    supabase.from('stop_coordinate_submissions').select('stop_id, stop_name, lat, lng').then(({ data }) => {
+      if (!data || data.length === 0) return
+      const grouped: Record<string, { stop_id: string; lats: number[]; lngs: number[] }> = {}
+      for (const row of data) {
+        if (!grouped[row.stop_name]) grouped[row.stop_name] = { stop_id: row.stop_id, lats: [], lngs: [] }
+        grouped[row.stop_name].lats.push(row.lat)
+        grouped[row.stop_name].lngs.push(row.lng)
+      }
+      setPins(Object.entries(grouped).map(([stop_name, { stop_id, lats, lngs }]) => ({
+        stop_id,
+        stop_name,
+        lat: lats.reduce((a, b) => a + b, 0) / lats.length,
+        lng: lngs.reduce((a, b) => a + b, 0) / lngs.length,
+      })))
+    })
+  }, [])
 
   useEffect(() => {
     supabase.from('stop_shade_reports').select('stop_name, has_shade').then(({ data }) => {
@@ -272,6 +295,7 @@ function BetterBusApp() {
           sx={{ mb: 3, borderBottom: '1px solid #333', '& .MuiTabs-indicator': { bgcolor: 'primary.main' } }}>
           <Tab label={t.tab_plan}   sx={{ color: tab === 0 ? 'primary.main' : 'text.secondary' }} />
           <Tab label={t.tab_browse} sx={{ color: tab === 1 ? 'primary.main' : 'text.secondary' }} />
+          <Tab label={t.tab_map}    sx={{ color: tab === 2 ? 'primary.main' : 'text.secondary' }} />
         </Tabs>
 
         {/* Plan a Journey */}
@@ -469,6 +493,22 @@ function BetterBusApp() {
               <Alert severity='error' sx={{ mt: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
                 Could not get location. Please ensure location access is enabled.
               </Alert>
+            )}
+          </Box>
+        )}
+
+        {/* Map */}
+        {tab === 2 && (
+          <Box>
+            <StopMap
+              pins={pins}
+              onSelect={name => { setBrowseStop(name); setBrowseInput(name); setTab(1) }}
+            />
+            {pins.length === 0 && (
+              <Typography variant='caption' color='text.secondary'
+                sx={{ display: 'block', mt: 2, textAlign: 'center', lineHeight: 1.6 }}>
+                {t.map_no_pins}
+              </Typography>
             )}
           </Box>
         )}
