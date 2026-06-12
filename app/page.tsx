@@ -26,6 +26,8 @@ import SwapVertIcon from '@mui/icons-material/SwapVert'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import ExpandLessIcon from '@mui/icons-material/ExpandLess'
 import MyLocationIcon from '@mui/icons-material/MyLocation'
+import FavoriteIcon from '@mui/icons-material/Favorite'
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 
 import theme from './theme'
 import { supabase } from '@/lib/supabase'
@@ -109,16 +111,21 @@ function LegDetail({ leg, t, shadedStops }: { leg: Leg; t: T; shadedStops: Set<s
 
 function ResultCard({ result, index, t, shadedStops }: { result: JourneyResult; index: number; t: T; shadedStops: Set<string> }) {
   const label = result.type === 'direct' ? t.direct : t.transfer
+  const fare  = result.type === 'direct' ? t.fare_direct : t.fare_transfer
   return (
     <Card sx={{ mt: 2, bgcolor: '#1A1A1A' }}>
       <CardContent>
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 0.5 }}>
           <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 1.5, fontWeight: 700 }}>
             {t.option} {index + 1}
           </Typography>
           <Chip label={label} size='small' variant='outlined'
             sx={{ borderColor: 'primary.main', color: 'primary.main', fontFamily: 'var(--font-mono)', fontSize: '0.65rem', height: 20 }} />
+          <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: '#888', ml: 'auto' }}>
+            {fare}
+          </Typography>
         </Box>
+        <Divider sx={{ borderColor: '#2a2a2a', mb: 2 }} />
         {result.legs.map((leg, j) => (
           <React.Fragment key={j}>
             <LegDetail leg={leg} t={t} shadedStops={shadedStops} />
@@ -152,6 +159,8 @@ function BetterBusApp() {
   const [pins, setPins] = useState<StopPin[]>([])
   const [reportState, setReportState] = useState<'idle' | 'open' | 'submitting' | 'success' | 'error'>('idle')
   const [reportText, setReportText] = useState('')
+  const [favourites, setFavourites] = useState<string[]>([])
+  const [recentSearches, setRecentSearches] = useState<Array<{ origin: string; dest: string }>>([])
 
   const t = TRANSLATIONS[lang]
   const { allStops, stopRoutes, tripStops } = graph
@@ -160,7 +169,9 @@ function BetterBusApp() {
     setWarning(null); setResults(null)
     if (!origin || !dest) { setWarning(t.warn_select); return }
     if (origin === dest)  { setWarning(t.warn_same);   return }
-    setResults(findRoute(origin.trim().toLowerCase(), dest.trim().toLowerCase(), { stopRoutes, tripStops, allStops }))
+    const found = findRoute(origin.trim().toLowerCase(), dest.trim().toLowerCase(), { stopRoutes, tripStops, allStops })
+    setResults(found)
+    if (found.length > 0) saveRecentSearch(origin, dest)
   }
 
   function handleSwap() {
@@ -176,6 +187,38 @@ function BetterBusApp() {
       if (reason === 'reset' && v === '') return
       set(v)
     }
+  }
+
+  const isServiceClosed = useMemo(() => {
+    const bruneHour = (new Date().getUTCHours() + 8) % 24
+    return bruneHour < 6 || bruneHour >= 18
+  }, [])
+
+  useEffect(() => {
+    const stored = localStorage.getItem('betterbus_favorites')
+    if (stored) setFavourites(JSON.parse(stored))
+  }, [])
+
+  useEffect(() => {
+    const stored = localStorage.getItem('betterbus_recent')
+    if (stored) setRecentSearches(JSON.parse(stored))
+  }, [])
+
+  function toggleFavourite(stop: string) {
+    setFavourites(prev => {
+      const next = prev.includes(stop) ? prev.filter(s => s !== stop) : [...prev, stop]
+      localStorage.setItem('betterbus_favorites', JSON.stringify(next))
+      return next
+    })
+  }
+
+  function saveRecentSearch(orig: string, dst: string) {
+    setRecentSearches(prev => {
+      const filtered = prev.filter(r => !(r.origin === orig && r.dest === dst))
+      const next = [{ origin: orig, dest: dst }, ...filtered].slice(0, 3)
+      localStorage.setItem('betterbus_recent', JSON.stringify(next))
+      return next
+    })
   }
 
   useEffect(() => {
@@ -310,6 +353,7 @@ function BetterBusApp() {
           </Typography>
           <Typography variant='body2' sx={{ mt: 0.75, opacity: 0.75, fontSize: '0.8rem' }}>{t.subtitle}</Typography>
           <Typography variant='caption' sx={{ display: 'block', mt: 0.75, opacity: 0.7, fontSize: '0.72rem' }}>{t.terminal_notice}</Typography>
+          <Typography variant='caption' sx={{ display: 'block', mt: 0.25, opacity: 0.65, fontSize: '0.72rem' }}>🕐 {t.service_hours}</Typography>
         </Box>
 
         {/* Tabs */}
@@ -348,10 +392,33 @@ function BetterBusApp() {
               filterOptions={filterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop} size='small' sx={{ mt: 0.75, mb: 2 }} />} />
 
+            {recentSearches.length > 0 && (
+              <Box sx={{ mb: 2 }}>
+                <Typography variant='caption' sx={{ color: 'text.secondary', display: 'block', mb: 1 }}>
+                  {t.recent}
+                </Typography>
+                <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+                  {recentSearches.map((r, i) => (
+                    <Chip key={i} size='small'
+                      label={`${r.origin} → ${r.dest}`}
+                      onClick={() => { setOrigin(r.origin); setDest(r.dest); setOriginInput(r.origin); setDestInput(r.dest); setResults(null); setWarning(null) }}
+                      sx={{ bgcolor: '#1A1A1A', color: 'text.secondary', border: '1px solid #333', fontSize: '0.7rem', cursor: 'pointer', maxWidth: 280, '.MuiChip-label': { overflow: 'hidden', textOverflow: 'ellipsis' } }}
+                    />
+                  ))}
+                </Box>
+              </Box>
+            )}
+
             <Button fullWidth variant='contained' onClick={handleFindRoute}
               sx={{ bgcolor: 'primary.main', color: '#0D0D0D', fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: '0.85rem', letterSpacing: 1, borderRadius: 2, py: 1.25, '&:hover': { bgcolor: '#e5b800' } }}>
               {t.find_route}
             </Button>
+
+            {isServiceClosed && (
+              <Alert severity='warning' sx={{ mt: 2, bgcolor: '#2a2200', color: '#F5C518', border: '1px solid #3a3100' }}>
+                {t.service_closed}
+              </Alert>
+            )}
 
             {warning && (
               <Alert severity='warning' sx={{ mt: 2, bgcolor: '#2a2200', color: '#F5C518', border: '1px solid #3a3100' }}>{warning}</Alert>
@@ -382,6 +449,23 @@ function BetterBusApp() {
               </a>
             </Box>
 
+            {favourites.length > 0 && (
+              <Box sx={{ mb: 2 }}>
+                <Typography variant='caption' sx={{ color: 'text.secondary', display: 'block', mb: 1 }}>
+                  {t.favourites}
+                </Typography>
+                <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+                  {favourites.map(stop => (
+                    <Chip key={stop} size='small' label={stop}
+                      icon={<FavoriteIcon sx={{ fontSize: '12px !important', color: '#ff4a6a !important' }} />}
+                      onClick={() => { setBrowseStop(stop); setBrowseInput(stop); setLocState('idle'); setLocCoords(null); setShadeState('idle') }}
+                      sx={{ bgcolor: '#1A1A1A', color: 'text.secondary', border: '1px solid #333', fontSize: '0.7rem', cursor: 'pointer' }}
+                    />
+                  ))}
+                </Box>
+              </Box>
+            )}
+
             <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem' }}>
               {t.stop_label}
             </Typography>
@@ -389,7 +473,19 @@ function BetterBusApp() {
               onChange={(_, v) => { setBrowseStop(v); setLocState('idle'); setLocCoords(null); setShadeState('idle') }}
               onInputChange={guardInput(setBrowseInput)}
               filterOptions={filterOptions}
-              renderInput={p => <TextField {...p} placeholder={t.select_stop_browse} size='small' sx={{ mt: 0.75, mb: 2 }} />} />
+              renderInput={p => <TextField {...p} placeholder={t.select_stop_browse} size='small' sx={{ mt: 0.75, mb: 1 }} />} />
+
+            {browseStop && (
+              <Box sx={{ display: 'flex', alignItems: 'center', mb: 2, mt: 0 }}>
+                <IconButton size='small' onClick={() => toggleFavourite(browseStop)}
+                  sx={{ color: favourites.includes(browseStop) ? '#ff4a6a' : 'text.secondary', p: 0.5 }}>
+                  {favourites.includes(browseStop) ? <FavoriteIcon fontSize='small' /> : <FavoriteBorderIcon fontSize='small' />}
+                </IconButton>
+                <Typography variant='caption' color='text.secondary' sx={{ ml: 0.5 }}>
+                  {t.favourites}
+                </Typography>
+              </Box>
+            )}
 
             {browseStop && browseRoutes.length === 0 && (
               <Card sx={{ bgcolor: '#1A1A1A' }}>

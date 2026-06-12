@@ -27,6 +27,7 @@ export type TranslationKey =
   | 'stops_along' | 'stop_singular' | 'stop_plural' | 'transfer_at'
   | 'show_stops' | 'stop_label' | 'select_stop_browse' | 'routes_here'
   | 'stop_seq' | 'view_map' | 'terminal_notice' | 'tab_map' | 'map_no_pins'
+  | 'favourites' | 'recent' | 'fare_direct' | 'fare_transfer' | 'service_hours' | 'service_closed'
 
 export type Translations = Record<TranslationKey, string>
 
@@ -62,6 +63,12 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB Bus Terminal is currently not in service.',
     tab_map:            'Map',
     map_no_pins:        'No stop locations yet. Be the first — use the Where am I? tab to submit your location.',
+    favourites:         'Favourites',
+    recent:             'Recent',
+    fare_direct:        'Est. BND 1.00',
+    fare_transfer:      'Est. BND 2.00 (2 trips)',
+    service_hours:      '6AM – 6PM daily',
+    service_closed:     '⚠ Bus service is not running right now. Hours: 6AM – 6PM daily.',
   },
   Melayu: {
     subtitle:           'Penemuan laluan bas awam · Daerah Brunei-Muara · Daerah lain akan datang',
@@ -94,6 +101,12 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ Terminal Bas BSB kini tidak beroperasi.',
     tab_map:            'Peta',
     map_no_pins:        'Tiada lokasi perhentian lagi. Jadilah yang pertama — guna tab Di mana saya? untuk hantar lokasi anda.',
+    favourites:         'Kegemaran',
+    recent:             'Terbaru',
+    fare_direct:        'Angg. BND 1.00',
+    fare_transfer:      'Angg. BND 2.00 (2 perjalanan)',
+    service_hours:      '6PG – 6PTG harian',
+    service_closed:     '⚠ Perkhidmatan bas tidak beroperasi sekarang. Waktu: 6PG – 6PTG harian.',
   },
   '中文': {
     subtitle:           '公共巴士路线发现 · 文莱-摩拉区 · 其他区域即将推出',
@@ -126,6 +139,12 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB巴士总站目前停止运营。',
     tab_map:            '地图',
     map_no_pins:        '暂无站点位置。成为第一个贡献者——在"我在哪里？"标签提交您的位置。',
+    favourites:         '收藏',
+    recent:             '最近',
+    fare_direct:        '约 BND 1.00',
+    fare_transfer:      '约 BND 2.00（2程）',
+    service_hours:      '每日 6AM – 6PM',
+    service_closed:     '⚠ 巴士服务目前未运营。服务时间：每日6AM – 6PM。',
   },
   'বাংলা': {
     subtitle:           'পাবলিক বাস রুট আবিষ্কার · ব্রুনাই-মুয়ারা জেলা · অন্যান্য জেলা শীঘ্রই',
@@ -158,6 +177,12 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB বাস টার্মিনাল বর্তমানে চালু নেই।',
     tab_map:            'মানচিত্র',
     map_no_pins:        'এখনও কোনো স্টপ লোকেশন নেই। প্রথম হন — আমি কোথায়? ট্যাব থেকে আপনার লোকেশন জমা দিন।',
+    favourites:         'পছন্দের',
+    recent:             'সাম্প্রতিক',
+    fare_direct:        'আনু. BND 1.00',
+    fare_transfer:      'আনু. BND 2.00 (২টি যাত্রা)',
+    service_hours:      'প্রতিদিন ৬AM – ৬PM',
+    service_closed:     '⚠ বাস সেবা এখন চলছে না। সময়: প্রতিদিন ৬AM – ৬PM।',
   },
   'हिन्दी': {
     subtitle:           'सार्वजनिक बस रूट खोज · ब्रुनेई-मुआरा जिला · अन्य जिले जल्द आ रहे हैं',
@@ -190,6 +215,12 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB बस टर्मिनल वर्तमान में सेवा में नहीं है।',
     tab_map:            'मानचित्र',
     map_no_pins:        'अभी कोई स्टॉप स्थान नहीं है। पहले बनें — मैं कहाँ हूँ? टैब से अपना स्थान सबमिट करें।',
+    favourites:         'पसंदीदा',
+    recent:             'हाल का',
+    fare_direct:        'लगभग BND 1.00',
+    fare_transfer:      'लगभग BND 2.00 (2 यात्राएं)',
+    service_hours:      'प्रतिदिन 6AM – 6PM',
+    service_closed:     '⚠ बस सेवा अभी उपलब्ध नहीं है। समय: प्रतिदिन 6AM – 6PM।',
   },
   Filipino: {
     subtitle:           'Paghahanap ng ruta ng pampublikong bus · Distrito ng Brunei-Muara · Iba pang distrito ay paparating',
@@ -222,5 +253,11 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ Ang BSB Bus Terminal ay kasalukuyang hindi nag-ooperate.',
     tab_map:            'Mapa',
     map_no_pins:        'Wala pang lokasyon ng himpilan. Maging una — gamitin ang Nasaan ako? tab para isumite ang iyong lokasyon.',
+    favourites:         'Mga Paborito',
+    recent:             'Kamakailang',
+    fare_direct:        'Tinag. BND 1.00',
+    fare_transfer:      'Tinag. BND 2.00 (2 biyahe)',
+    service_hours:      '6AM – 6PM araw-araw',
+    service_closed:     '⚠ Hindi ngayon tumatakbo ang bus. Oras: 6AM – 6PM araw-araw.',
   },
 }
