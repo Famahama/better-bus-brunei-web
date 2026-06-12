@@ -111,7 +111,7 @@ function LegDetail({ leg, t, shadedStops }: { leg: Leg; t: T; shadedStops: Set<s
 
 function ResultCard({ result, index, t, shadedStops }: { result: JourneyResult; index: number; t: T; shadedStops: Set<string> }) {
   const label = result.type === 'direct' ? t.direct : t.transfer
-  const fare  = result.type === 'direct' ? t.fare_direct : t.fare_transfer
+  const trips = result.type === 'direct' ? 1 : 2
   return (
     <Card sx={{ mt: 2, bgcolor: '#1A1A1A' }}>
       <CardContent>
@@ -121,9 +121,6 @@ function ResultCard({ result, index, t, shadedStops }: { result: JourneyResult; 
           </Typography>
           <Chip label={label} size='small' variant='outlined'
             sx={{ borderColor: 'primary.main', color: 'primary.main', fontFamily: 'var(--font-mono)', fontSize: '0.65rem', height: 20 }} />
-          <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: '#888', ml: 'auto' }}>
-            {fare}
-          </Typography>
         </Box>
         <Divider sx={{ borderColor: '#2a2a2a', mb: 2 }} />
         {result.legs.map((leg, j) => (
@@ -136,6 +133,20 @@ function ResultCard({ result, index, t, shadedStops }: { result: JourneyResult; 
             )}
           </React.Fragment>
         ))}
+        <Divider sx={{ borderColor: '#2a2a2a', mt: 2, mb: 1.5 }} />
+        <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+          {[
+            { label: t.fare_adult,  amount: `BND ${(1.00 * trips).toFixed(2)}` },
+            { label: t.fare_senior, amount: `BND ${(0.50 * trips).toFixed(2)}` },
+            { label: t.fare_child,  amount: `BND ${(0.50 * trips).toFixed(2)}` },
+            { label: t.fare_infant, amount: t.fare_free },
+          ].map(({ label, amount }) => (
+            <Box key={label} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+              <Typography variant='caption' sx={{ color: '#555', fontSize: '0.65rem', lineHeight: 1.2 }}>{label}</Typography>
+              <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: '#888', fontSize: '0.72rem', fontWeight: 600 }}>{amount}</Typography>
+            </Box>
+          ))}
+        </Box>
       </CardContent>
     </Card>
   )
