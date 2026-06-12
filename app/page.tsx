@@ -150,6 +150,8 @@ function BetterBusApp() {
   const [shadedStops, setShadedStops] = useState<Set<string>>(new Set())
   const [shadeState, setShadeState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
   const [pins, setPins] = useState<StopPin[]>([])
+  const [reportState, setReportState] = useState<'idle' | 'open' | 'submitting' | 'success' | 'error'>('idle')
+  const [reportText, setReportText] = useState('')
 
   const t = TRANSLATIONS[lang]
   const { allStops, stopRoutes, tripStops } = graph
@@ -229,6 +231,26 @@ function BetterBusApp() {
       })
     }
     setShadeState(error ? 'error' : 'success')
+  }
+
+  async function handleMissingReport() {
+    if (!reportText.trim()) return
+    setReportState('submitting')
+    const coords = await new Promise<{ lat: number; lng: number } | null>(resolve => {
+      if (!navigator.geolocation) return resolve(null)
+      navigator.geolocation.getCurrentPosition(
+        p => resolve({ lat: p.coords.latitude, lng: p.coords.longitude }),
+        () => resolve(null),
+        { timeout: 5000 }
+      )
+    })
+    const { error } = await supabase.from('missing_stop_reports').insert({
+      description: reportText.trim(),
+      lat: coords?.lat ?? null,
+      lng: coords?.lng ?? null,
+    })
+    if (!error) setReportText('')
+    setReportState(error ? 'error' : 'success')
   }
 
   function handleSubmitLocation() {
@@ -492,6 +514,61 @@ function BetterBusApp() {
             {browseStop && locState === 'error' && (
               <Alert severity='error' sx={{ mt: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
                 Could not get location. Please ensure location access is enabled.
+              </Alert>
+            )}
+
+            <Divider sx={{ borderColor: '#222', mt: 4, mb: 2 }} />
+
+            {reportState === 'idle' && (
+              <Typography variant='caption' color='text.secondary'
+                onClick={() => setReportState('open')}
+                sx={{ cursor: 'pointer', textDecoration: 'underline', textDecorationStyle: 'dotted' }}>
+                Can&apos;t find your stop? Report it →
+              </Typography>
+            )}
+
+            {reportState === 'open' && (
+              <Box>
+                <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
+                  Describe the stop (e.g. road name, nearby landmark):
+                </Typography>
+                <TextField
+                  fullWidth size='small' multiline rows={2}
+                  placeholder='e.g. Jalan Rakyat Jati Rimba, near the mosque'
+                  value={reportText}
+                  onChange={e => setReportText(e.target.value)}
+                  sx={{ mb: 1.5 }}
+                />
+                <Box sx={{ display: 'flex', gap: 1 }}>
+                  <Button size='small' variant='contained' onClick={handleMissingReport}
+                    disabled={!reportText.trim()}
+                    sx={{ bgcolor: 'primary.main', color: '#0D0D0D', fontWeight: 700, borderRadius: 2 }}>
+                    Submit
+                  </Button>
+                  <Button size='small' variant='outlined' onClick={() => { setReportState('idle'); setReportText('') }}
+                    sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2 }}>
+                    Cancel
+                  </Button>
+                </Box>
+              </Box>
+            )}
+
+            {reportState === 'submitting' && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                <CircularProgress size={14} sx={{ color: 'primary.main' }} />
+                <Typography variant='caption' color='text.secondary'>Submitting...</Typography>
+              </Box>
+            )}
+
+            {reportState === 'success' && (
+              <Alert severity='success' sx={{ bgcolor: '#0a2a0a', color: '#6EDC8C', border: '1px solid #1a4a1a' }}>
+                Thanks! We&apos;ll look into it.
+              </Alert>
+            )}
+
+            {reportState === 'error' && (
+              <Alert severity='error' sx={{ bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
+                Submission failed. Please try again.
               </Alert>
             )}
           </Box>
