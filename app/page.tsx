@@ -8,7 +8,7 @@ import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
-import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete'
+import Autocomplete from '@mui/material/Autocomplete'
 import TextField from '@mui/material/TextField'
 import Button from '@mui/material/Button'
 import Card from '@mui/material/Card'
@@ -36,13 +36,11 @@ import type { StopPin } from '@/lib/types'
 const StopMap = dynamic(() => import('@/components/StopMap'), { ssr: false })
 import { buildGraph } from '@/lib/gtfs'
 import { findRoute } from '@/lib/routing'
-import { TRANSLATIONS, getRouteColor, cleanHeadsign } from '@/lib/constants'
+import { TRANSLATIONS, getRouteColor, cleanHeadsign, stopFilterOptions, CHANGELOG } from '@/lib/constants'
 import type { Language, JourneyResult, Leg } from '@/lib/types'
 
 const LANGUAGES: Language[] = ['English', 'Melayu', '中文', 'বাংলা', 'हिन्दी', 'Filipino']
 const JPD_MAP_URL = 'https://www.jpd.gov.bn/SiteAssets/Site%20Pages/BRUNEI%20Bus%20Route/New%20Bus%20Route%20English%20Version.jpg'
-
-const filterOptions = createFilterOptions<string>({ matchFrom: 'any' })
 
 const graph = buildGraph()
 
@@ -163,15 +161,20 @@ function BetterBusApp() {
   const [warning, setWarning]       = useState<string | null>(null)
   const [browseStop, setBrowseStop] = useState<string | null>(null)
   const [browseInput, setBrowseInput] = useState('')
-  const [locState, setLocState] = useState<'idle' | 'getting' | 'confirming' | 'submitting' | 'success' | 'error'>('idle')
-  const [locCoords, setLocCoords] = useState<{ lat: number; lng: number; accuracy: number } | null>(null)
   const [shadedStops, setShadedStops] = useState<Set<string>>(new Set())
-  const [shadeState, setShadeState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
   const [pins, setPins] = useState<StopPin[]>([])
-  const [reportState, setReportState] = useState<'idle' | 'open' | 'submitting' | 'success' | 'error'>('idle')
-  const [reportText, setReportText] = useState('')
   const [favourites, setFavourites] = useState<string[]>([])
   const [recentSearches, setRecentSearches] = useState<Array<{ origin: string; dest: string }>>([])
+
+  const [adoptStopName, setAdoptStopName] = useState('')
+  const [adoptStopCode, setAdoptStopCode] = useState('')
+  const [adoptNickname, setAdoptNickname] = useState('')
+  const [adoptShade, setAdoptShade] = useState<boolean | null>(null)
+  const [adoptCoords, setAdoptCoords] = useState<{ lat: number; lng: number; accuracy: number } | null>(null)
+  const [adoptPhoto, setAdoptPhoto] = useState<File | null>(null)
+  const [adoptPhotoPreview, setAdoptPhotoPreview] = useState<string | null>(null)
+  const [adoptLocState, setAdoptLocState] = useState<'idle' | 'getting' | 'error'>('idle')
+  const [adoptState, setAdoptState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
 
   const t = TRANSLATIONS[lang]
   const { allStops, stopRoutes, tripStops } = graph
@@ -233,105 +236,115 @@ function BetterBusApp() {
   }
 
   useEffect(() => {
-    supabase.from('stop_coordinate_submissions').select('stop_id, stop_name, lat, lng').then(({ data }) => {
-      if (!data || data.length === 0) return
-      const grouped: Record<string, { stop_id: string; lats: number[]; lngs: number[] }> = {}
-      for (const row of data) {
-        if (!grouped[row.stop_name]) grouped[row.stop_name] = { stop_id: row.stop_id, lats: [], lngs: [] }
-        grouped[row.stop_name].lats.push(row.lat)
-        grouped[row.stop_name].lngs.push(row.lng)
-      }
-      setPins(Object.entries(grouped).map(([stop_name, { stop_id, lats, lngs }]) => ({
-        stop_id,
-        stop_name,
-        lat: lats.reduce((a, b) => a + b, 0) / lats.length,
-        lng: lngs.reduce((a, b) => a + b, 0) / lngs.length,
-      })))
-    })
-  }, [])
+    supabase.from('adopted_stops')
+      .select('stop_id, stop_code, stop_name, nickname, stop_lat, stop_lon, has_shade, photo_url')
+      .then(({ data }) => {
+        if (!data || data.length === 0) return
 
-  useEffect(() => {
-    supabase.from('stop_shade_reports').select('stop_name, has_shade').then(({ data }) => {
-      if (!data) return
-      const votes: Record<string, { yes: number; no: number }> = {}
-      for (const row of data) {
-        if (!votes[row.stop_name]) votes[row.stop_name] = { yes: 0, no: 0 }
-        if (row.has_shade) votes[row.stop_name].yes++
-        else votes[row.stop_name].no++
-      }
-      const shaded = new Set<string>()
-      for (const [name, v] of Object.entries(votes)) {
-        if (v.yes > v.no) shaded.add(name)
-      }
-      setShadedStops(shaded)
-    })
-  }, [])
+        const votes: Record<string, { yes: number; no: number }> = {}
+        for (const row of data) {
+          if (row.has_shade === null) continue
+          if (!votes[row.stop_name]) votes[row.stop_name] = { yes: 0, no: 0 }
+          if (row.has_shade) votes[row.stop_name].yes++
+          else votes[row.stop_name].no++
+        }
+        const shaded = new Set<string>()
+        for (const [name, v] of Object.entries(votes)) {
+          if (v.yes > v.no) shaded.add(name)
+        }
+        setShadedStops(shaded)
 
-  async function handleShadeReport(hasShade: boolean) {
-    if (!browseStop) return
-    setShadeState('submitting')
-    const stopId = stopRoutes.get(browseStop.trim().toLowerCase())?.[0]?.stop_id ?? ''
-    const { error } = await supabase.from('stop_shade_reports').insert({
-      stop_id: stopId,
-      stop_name: browseStop,
-      has_shade: hasShade,
-    })
-    if (!error) {
-      setShadedStops(prev => {
-        const updated = new Set(prev)
-        if (hasShade) updated.add(browseStop)
-        else updated.delete(browseStop)
-        return updated
+        const grouped: Record<string, { stop_id: string; stop_name: string; stop_code?: string; nickname?: string; has_shade: boolean | null; photo_url: string | null; lats: number[]; lngs: number[] }> = {}
+        for (const row of data) {
+          const key = row.stop_code || row.stop_name
+          if (!grouped[key]) {
+            grouped[key] = { stop_id: row.stop_id ?? '', stop_name: row.stop_name, stop_code: row.stop_code ?? undefined, nickname: row.nickname ?? undefined, has_shade: row.has_shade, photo_url: row.photo_url, lats: [], lngs: [] }
+          }
+          grouped[key].lats.push(row.stop_lat)
+          grouped[key].lngs.push(row.stop_lon)
+          grouped[key].nickname = row.nickname ?? grouped[key].nickname
+          grouped[key].photo_url = row.photo_url ?? grouped[key].photo_url
+          grouped[key].has_shade = row.has_shade ?? grouped[key].has_shade
+        }
+        setPins(Object.values(grouped).map(g => ({
+          stop_id: g.stop_id,
+          stop_name: g.stop_name,
+          stop_code: g.stop_code,
+          nickname: g.nickname,
+          has_shade: g.has_shade,
+          photo_url: g.photo_url,
+          lat: g.lats.reduce((a, b) => a + b, 0) / g.lats.length,
+          lng: g.lngs.reduce((a, b) => a + b, 0) / g.lngs.length,
+        })))
       })
-    }
-    setShadeState(error ? 'error' : 'success')
-  }
+  }, [])
 
-  async function handleMissingReport() {
-    if (!reportText.trim()) return
-    setReportState('submitting')
-    const coords = await new Promise<{ lat: number; lng: number } | null>(resolve => {
-      if (!navigator.geolocation) return resolve(null)
-      navigator.geolocation.getCurrentPosition(
-        p => resolve({ lat: p.coords.latitude, lng: p.coords.longitude }),
-        () => resolve(null),
-        { timeout: 5000 }
-      )
-    })
-    const { error } = await supabase.from('missing_stop_reports').insert({
-      description: reportText.trim(),
-      lat: coords?.lat ?? null,
-      lng: coords?.lng ?? null,
-    })
-    if (!error) setReportText('')
-    setReportState(error ? 'error' : 'success')
-  }
-
-  function handleSubmitLocation() {
-    if (!browseStop) return
-    setLocState('getting')
+  function handleAdoptGetLocation() {
+    setAdoptLocState('getting')
     navigator.geolocation.getCurrentPosition(
       (pos) => {
-        setLocCoords({ lat: pos.coords.latitude, lng: pos.coords.longitude, accuracy: pos.coords.accuracy })
-        setLocState('confirming')
+        setAdoptCoords({ lat: pos.coords.latitude, lng: pos.coords.longitude, accuracy: pos.coords.accuracy })
+        setAdoptLocState('idle')
       },
-      () => setLocState('error'),
+      () => setAdoptLocState('error'),
       { enableHighAccuracy: true, timeout: 10000 }
     )
   }
 
-  async function handleConfirmLocation() {
-    if (!browseStop || !locCoords) return
-    setLocState('submitting')
-    const stopId = stopRoutes.get(browseStop.trim().toLowerCase())?.[0]?.stop_id ?? ''
-    const { error } = await supabase.from('stop_coordinate_submissions').insert({
+  function handleAdoptPhotoChange(file: File | null) {
+    setAdoptPhoto(file)
+    setAdoptPhotoPreview(file ? URL.createObjectURL(file) : null)
+  }
+
+  async function handleAdoptSubmit() {
+    if (!adoptStopName.trim() || !adoptStopCode.trim() || !adoptCoords) return
+    setAdoptState('submitting')
+
+    let photoUrl: string | null = null
+    if (adoptPhoto) {
+      const ext = adoptPhoto.name.split('.').pop()
+      const path = `${crypto.randomUUID()}.${ext}`
+      const { error: uploadError } = await supabase.storage.from('stop-photos').upload(path, adoptPhoto)
+      if (!uploadError) {
+        photoUrl = supabase.storage.from('stop-photos').getPublicUrl(path).data.publicUrl
+      }
+    }
+
+    const stopId = stopRoutes.get(adoptStopName.trim().toLowerCase())?.[0]?.stop_id ?? null
+
+    const { error } = await supabase.from('adopted_stops').insert({
       stop_id: stopId,
-      stop_name: browseStop,
-      lat: locCoords.lat,
-      lng: locCoords.lng,
-      accuracy_meters: locCoords.accuracy,
+      stop_code: adoptStopCode.trim(),
+      stop_name: adoptStopName.trim(),
+      nickname: adoptNickname.trim() || null,
+      stop_lat: adoptCoords.lat,
+      stop_lon: adoptCoords.lng,
+      has_shade: adoptShade,
+      photo_url: photoUrl,
     })
-    setLocState(error ? 'error' : 'success')
+
+    if (!error) {
+      setShadedStops(prev => {
+        if (adoptShade === null) return prev
+        const updated = new Set(prev)
+        if (adoptShade) updated.add(adoptStopName.trim())
+        else updated.delete(adoptStopName.trim())
+        return updated
+      })
+      setPins(prev => [...prev, {
+        stop_id: stopId ?? '',
+        stop_name: adoptStopName.trim(),
+        stop_code: adoptStopCode.trim(),
+        nickname: adoptNickname.trim() || undefined,
+        has_shade: adoptShade,
+        photo_url: photoUrl,
+        lat: adoptCoords.lat,
+        lng: adoptCoords.lng,
+      }])
+      setAdoptStopName(''); setAdoptStopCode(''); setAdoptNickname('')
+      setAdoptShade(null); setAdoptCoords(null); handleAdoptPhotoChange(null)
+    }
+    setAdoptState(error ? 'error' : 'success')
   }
 
   const browseRoutes = useMemo(() => {
@@ -373,6 +386,8 @@ function BetterBusApp() {
           <Tab label={t.tab_plan}   sx={{ color: tab === 0 ? 'primary.main' : 'text.secondary' }} />
           <Tab label={t.tab_browse} sx={{ color: tab === 1 ? 'primary.main' : 'text.secondary' }} />
           <Tab label={t.tab_map}    sx={{ color: tab === 2 ? 'primary.main' : 'text.secondary' }} />
+          <Tab label={t.tab_adopt}    sx={{ color: tab === 3 ? 'primary.main' : 'text.secondary' }} />
+          <Tab label={t.tab_whatsnew} sx={{ color: tab === 4 ? 'primary.main' : 'text.secondary' }} />
         </Tabs>
 
         {/* Plan a Journey */}
@@ -384,7 +399,7 @@ function BetterBusApp() {
             <Autocomplete options={allStops} value={origin} inputValue={originInput}
               onChange={(_, v) => { setOrigin(v); setResults(null) }}
               onInputChange={guardInput(setOriginInput)}
-              filterOptions={filterOptions}
+              filterOptions={stopFilterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop} size='small' sx={{ mt: 0.75, mb: 1.5 }} />} />
 
             <Box sx={{ mb: 1.5 }}>
@@ -400,7 +415,7 @@ function BetterBusApp() {
             <Autocomplete options={allStops} value={dest} inputValue={destInput}
               onChange={(_, v) => { setDest(v); setResults(null) }}
               onInputChange={guardInput(setDestInput)}
-              filterOptions={filterOptions}
+              filterOptions={stopFilterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop} size='small' sx={{ mt: 0.75, mb: 2 }} />} />
 
             {recentSearches.length > 0 && (
@@ -469,7 +484,7 @@ function BetterBusApp() {
                   {favourites.map(stop => (
                     <Chip key={stop} size='small' label={stop}
                       icon={<FavoriteIcon sx={{ fontSize: '12px !important', color: '#ff4a6a !important' }} />}
-                      onClick={() => { setBrowseStop(stop); setBrowseInput(stop); setLocState('idle'); setLocCoords(null); setShadeState('idle') }}
+                      onClick={() => { setBrowseStop(stop); setBrowseInput(stop) }}
                       sx={{ bgcolor: '#1A1A1A', color: 'text.secondary', border: '1px solid #333', fontSize: '0.7rem', cursor: 'pointer' }}
                     />
                   ))}
@@ -481,9 +496,9 @@ function BetterBusApp() {
               {t.stop_label}
             </Typography>
             <Autocomplete options={allStops} value={browseStop} inputValue={browseInput}
-              onChange={(_, v) => { setBrowseStop(v); setLocState('idle'); setLocCoords(null); setShadeState('idle') }}
+              onChange={(_, v) => setBrowseStop(v)}
               onInputChange={guardInput(setBrowseInput)}
-              filterOptions={filterOptions}
+              filterOptions={stopFilterOptions}
               renderInput={p => <TextField {...p} placeholder={t.select_stop_browse} size='small' sx={{ mt: 0.75, mb: 1 }} />} />
 
             {browseStop && (
@@ -537,147 +552,13 @@ function BetterBusApp() {
               </Typography>
             )}
 
-            {browseStop && shadeState === 'idle' && (
-              <Box sx={{ mt: 2 }}>
-                <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
-                  Does this stop have shade?
-                </Typography>
-                <Box sx={{ display: 'flex', gap: 1 }}>
-                  <Button size='small' variant='outlined' onClick={() => handleShadeReport(true)}
-                    sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
-                    🌂 Yes
-                  </Button>
-                  <Button size='small' variant='outlined' onClick={() => handleShadeReport(false)}
-                    sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
-                    ☀️ No
-                  </Button>
-                </Box>
-              </Box>
-            )}
-
-            {browseStop && shadeState === 'submitting' && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 2 }}>
-                <CircularProgress size={14} sx={{ color: 'primary.main' }} />
-                <Typography variant='caption' color='text.secondary'>Submitting...</Typography>
-              </Box>
-            )}
-
-            {browseStop && shadeState === 'success' && (
-              <Alert severity='success' sx={{ mt: 2, bgcolor: '#0a2a0a', color: '#6EDC8C', border: '1px solid #1a4a1a' }}>
-                Thanks for the report!
-              </Alert>
-            )}
-
-            {browseStop && shadeState === 'error' && (
-              <Alert severity='error' sx={{ mt: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
-                Submission failed. Please try again.
-              </Alert>
-            )}
-
-            {browseStop && locState === 'idle' && (
-              <Button variant='outlined' size='small' startIcon={<MyLocationIcon />}
-                onClick={handleSubmitLocation}
-                sx={{ mt: 2, borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
-                Submit my location for this stop
-              </Button>
-            )}
-
-            {browseStop && (locState === 'getting' || locState === 'submitting') && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 2 }}>
-                <CircularProgress size={14} sx={{ color: 'primary.main' }} />
-                <Typography variant='caption' color='text.secondary'>
-                  {locState === 'getting' ? 'Getting your location...' : 'Submitting...'}
-                </Typography>
-              </Box>
-            )}
-
-            {browseStop && locState === 'confirming' && locCoords && (
-              <Card sx={{ mt: 2, bgcolor: '#1A1A1A' }}>
-                <CardContent>
-                  <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1.5 }}>
-                    Submit <strong style={{ color: '#E8E8E8' }}>{locCoords.lat.toFixed(5)}°N, {locCoords.lng.toFixed(5)}°E</strong>{' '}
-                    (±{Math.round(locCoords.accuracy)}m) as the location for <strong style={{ color: '#E8E8E8' }}>{browseStop}</strong>?
-                  </Typography>
-                  <Box sx={{ display: 'flex', gap: 1 }}>
-                    <Button size='small' variant='contained' onClick={handleConfirmLocation}
-                      sx={{ bgcolor: 'primary.main', color: '#0D0D0D', fontWeight: 700, borderRadius: 2 }}>
-                      Confirm
-                    </Button>
-                    <Button size='small' variant='outlined' onClick={() => setLocState('idle')}
-                      sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2 }}>
-                      Cancel
-                    </Button>
-                  </Box>
-                </CardContent>
-              </Card>
-            )}
-
-            {browseStop && locState === 'success' && (
-              <Alert severity='success' sx={{ mt: 2, bgcolor: '#0a2a0a', color: '#6EDC8C', border: '1px solid #1a4a1a' }}>
-                Thank you! Your location has been submitted.
-              </Alert>
-            )}
-
-            {browseStop && locState === 'error' && (
-              <Alert severity='error' sx={{ mt: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
-                Could not get location. Please ensure location access is enabled.
-              </Alert>
-            )}
-
             <Divider sx={{ borderColor: '#222', mt: 4, mb: 2 }} />
 
-            {reportState === 'idle' && (
-              <Typography variant='caption' color='text.secondary'
-                onClick={() => setReportState('open')}
-                sx={{ cursor: 'pointer', textDecoration: 'underline', textDecorationStyle: 'dotted' }}>
-                Can&apos;t find your stop? Report it →
-              </Typography>
-            )}
-
-            {reportState === 'open' && (
-              <Box>
-                <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
-                  Describe the stop (e.g. road name, nearby landmark):
-                </Typography>
-                <TextField
-                  fullWidth size='small' multiline rows={2}
-                  placeholder='e.g. Jalan Rakyat Jati Rimba, near the mosque'
-                  value={reportText}
-                  onChange={e => setReportText(e.target.value)}
-                  sx={{ mb: 1.5 }}
-                />
-                <Box sx={{ display: 'flex', gap: 1 }}>
-                  <Button size='small' variant='contained' onClick={handleMissingReport}
-                    disabled={!reportText.trim()}
-                    sx={{ bgcolor: 'primary.main', color: '#0D0D0D', fontWeight: 700, borderRadius: 2 }}>
-                    Submit
-                  </Button>
-                  <Button size='small' variant='outlined' onClick={() => { setReportState('idle'); setReportText('') }}
-                    sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2 }}>
-                    Cancel
-                  </Button>
-                </Box>
-              </Box>
-            )}
-
-            {reportState === 'submitting' && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                <CircularProgress size={14} sx={{ color: 'primary.main' }} />
-                <Typography variant='caption' color='text.secondary'>Submitting...</Typography>
-              </Box>
-            )}
-
-            {reportState === 'success' && (
-              <Alert severity='success' sx={{ bgcolor: '#0a2a0a', color: '#6EDC8C', border: '1px solid #1a4a1a' }}>
-                Thanks! We&apos;ll look into it.
-              </Alert>
-            )}
-
-            {reportState === 'error' && (
-              <Alert severity='error' sx={{ bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
-                Submission failed. Please try again.
-              </Alert>
-            )}
+            <Typography variant='caption' color='text.secondary'
+              onClick={() => { setAdoptStopName(browseStop ?? ''); setTab(3) }}
+              sx={{ cursor: 'pointer', textDecoration: 'underline', textDecorationStyle: 'dotted' }}>
+              Don&apos;t see your stop, or have info to add? → Adopt-a-stop
+            </Typography>
           </Box>
         )}
 
@@ -697,6 +578,151 @@ function BetterBusApp() {
           </Box>
         )}
 
+        {/* Adopt-a-stop */}
+        {tab === 3 && (
+          <Box>
+            <Typography variant='body2' color='text.secondary' sx={{ mb: 2, lineHeight: 1.6 }}>
+              Found a stop pole with a code on it (e.g. <strong style={{ color: '#E8E8E8' }}>BE31 - 050</strong>)?
+              Report everything you can see — name, code, shade, photo, and your location — even if the stop isn&apos;t in the app yet.
+            </Typography>
+
+            <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem' }}>
+              Stop name
+            </Typography>
+            <Autocomplete freeSolo options={allStops} value={adoptStopName} inputValue={adoptStopName}
+              onChange={(_, v) => setAdoptStopName(v ?? '')}
+              onInputChange={guardInput(setAdoptStopName)}
+              filterOptions={stopFilterOptions}
+              renderInput={p => <TextField {...p} placeholder='e.g. Jalan Rakyat Jati Rimba' size='small' sx={{ mt: 0.75, mb: 1.5 }} />} />
+
+            <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem' }}>
+              Stop code
+            </Typography>
+            <TextField fullWidth size='small' placeholder='e.g. BE31 - 050'
+              value={adoptStopCode} onChange={e => setAdoptStopCode(e.target.value)}
+              sx={{ mt: 0.75, mb: 1.5 }} />
+
+            <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem' }}>
+              Nickname (optional)
+            </Typography>
+            <TextField fullWidth size='small' placeholder='e.g. Outside the mosque'
+              value={adoptNickname} onChange={e => setAdoptNickname(e.target.value)}
+              sx={{ mt: 0.75, mb: 2 }} />
+
+            <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
+              Does this stop have shade?
+            </Typography>
+            <Box sx={{ display: 'flex', gap: 1, mb: 2 }}>
+              <Button size='small' variant={adoptShade === true ? 'contained' : 'outlined'} onClick={() => setAdoptShade(true)}
+                sx={adoptShade === true
+                  ? { bgcolor: 'primary.main', color: '#0D0D0D', fontWeight: 700, borderRadius: 2, fontSize: '0.75rem' }
+                  : { borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+                🌂 Yes
+              </Button>
+              <Button size='small' variant={adoptShade === false ? 'contained' : 'outlined'} onClick={() => setAdoptShade(false)}
+                sx={adoptShade === false
+                  ? { bgcolor: 'primary.main', color: '#0D0D0D', fontWeight: 700, borderRadius: 2, fontSize: '0.75rem' }
+                  : { borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+                ☀️ No
+              </Button>
+            </Box>
+
+            <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
+              Location
+            </Typography>
+            {!adoptCoords && (
+              <Button variant='outlined' size='small' startIcon={<MyLocationIcon />}
+                onClick={handleAdoptGetLocation}
+                disabled={adoptLocState === 'getting'}
+                sx={{ mb: 2, borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+                {adoptLocState === 'getting' ? 'Getting your location...' : 'Use my location'}
+              </Button>
+            )}
+            {adoptCoords && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
+                <Typography variant='caption' color='text.secondary'>
+                  📍 {adoptCoords.lat.toFixed(5)}°N, {adoptCoords.lng.toFixed(5)}°E (±{Math.round(adoptCoords.accuracy)}m)
+                </Typography>
+                <Typography variant='caption' color='primary.main'
+                  onClick={handleAdoptGetLocation}
+                  sx={{ cursor: 'pointer', textDecoration: 'underline', textDecorationStyle: 'dotted' }}>
+                  Retry
+                </Typography>
+              </Box>
+            )}
+            {adoptLocState === 'error' && (
+              <Alert severity='error' sx={{ mb: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
+                Could not get location. Please ensure location access is enabled.
+              </Alert>
+            )}
+
+            <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
+              Photo (optional)
+            </Typography>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 2 }}>
+              <Button variant='outlined' size='small' component='label'
+                sx={{ borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+                Choose photo
+                <input type='file' accept='image/*' capture='environment' hidden
+                  onChange={e => handleAdoptPhotoChange(e.target.files?.[0] ?? null)} />
+              </Button>
+              {adoptPhotoPreview && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={adoptPhotoPreview} alt='' style={{ height: 48, width: 48, objectFit: 'cover', borderRadius: 8, border: '1px solid #333' }} />
+              )}
+            </Box>
+
+            <Button fullWidth variant='contained' onClick={handleAdoptSubmit}
+              disabled={!adoptStopName.trim() || !adoptStopCode.trim() || !adoptCoords || adoptState === 'submitting'}
+              sx={{ bgcolor: 'primary.main', color: '#0D0D0D', fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: '0.85rem', letterSpacing: 1, borderRadius: 2, py: 1.25, '&:hover': { bgcolor: '#e5b800' } }}>
+              Report this stop
+            </Button>
+
+            {adoptState === 'submitting' && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 2 }}>
+                <CircularProgress size={14} sx={{ color: 'primary.main' }} />
+                <Typography variant='caption' color='text.secondary'>Submitting...</Typography>
+              </Box>
+            )}
+            {adoptState === 'success' && (
+              <Alert severity='success' sx={{ mt: 2, bgcolor: '#0a2a0a', color: '#6EDC8C', border: '1px solid #1a4a1a' }}>
+                Thanks for adopting this stop!
+              </Alert>
+            )}
+            {adoptState === 'error' && (
+              <Alert severity='error' sx={{ mt: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
+                Submission failed. Please try again.
+              </Alert>
+            )}
+          </Box>
+        )}
+
+        {/* What's New */}
+        {tab === 4 && (
+          <Box>
+            {CHANGELOG.map((entry, i) => (
+              <Card key={entry.version} sx={{ mb: 2, bgcolor: '#1A1A1A' }}>
+                <CardContent>
+                  <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1, mb: 1 }}>
+                    <Typography variant='body2' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', fontWeight: 700 }}>
+                      {entry.version}
+                    </Typography>
+                    <Typography variant='caption' color='text.secondary'>{entry.date}</Typography>
+                    {i === 0 && (
+                      <Chip label='Latest' size='small' sx={{ bgcolor: 'primary.main', color: '#0D0D0D', fontWeight: 700, fontSize: '0.65rem', height: 18 }} />
+                    )}
+                  </Box>
+                  {entry.notes.map((note, j) => (
+                    <Typography key={j} variant='body2' color='text.secondary' sx={{ display: 'flex', gap: 1, mb: 0.5, lineHeight: 1.5 }}>
+                      <span>·</span><span>{note}</span>
+                    </Typography>
+                  ))}
+                </CardContent>
+              </Card>
+            ))}
+          </Box>
+        )}
+
         {/* Footer */}
         <Divider sx={{ mt: 5, mb: 3, borderColor: '#333' }} />
         <Box sx={{ textAlign: 'center' }}>
@@ -708,7 +734,7 @@ function BetterBusApp() {
             </a>
           </Typography>
           <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: '#555', display: 'block', mt: 0.5, mb: 1.5 }}>
-            brubah.com/bus · v0.3
+            brubah.com/bus · v0.4
           </Typography>
           <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, flexWrap: 'wrap' }}>
             {[

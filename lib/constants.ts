@@ -19,6 +19,63 @@ export function cleanHeadsign(h: string): string {
   return String(h).replace(/^→+/, '').trim()
 }
 
+function normalizeStopSearch(s: string): string {
+  return s.toLowerCase().replace(/\bjalan\b\.?/g, 'j.')
+}
+
+export function stopFilterOptions(options: string[], state: { inputValue: string }): string[] {
+  const input = normalizeStopSearch(state.inputValue.trim())
+  if (!input) return options
+  return options.filter(opt => normalizeStopSearch(opt).includes(input))
+}
+
+export interface ChangelogEntry {
+  version: string
+  date: string
+  notes: string[]
+}
+
+export const CHANGELOG: ChangelogEntry[] = [
+  {
+    version: 'v0.4',
+    date: '2026-06',
+    notes: [
+      'Added Adopt-a-stop: report a stop\'s name, physical pole code, shade, photo, and location in one go — including stops not yet in the app',
+      'Map now defaults to stops within 1km of you, with an option to show all',
+      'Stop search now matches "Jalan" and "J." interchangeably (e.g. "Jalan Gadong" = "J. Gadong")',
+    ],
+  },
+  {
+    version: 'v0.3',
+    date: '2026-06',
+    notes: [
+      'Added favourites and recent searches',
+      'Added full fare breakdown and operating hours on result cards',
+      'Added missing-stop reporting',
+      'Added OSM map tab with crowd-sourced stop pins',
+      'Added crowd-sourced shade reporting and 🌂 indicator',
+    ],
+  },
+  {
+    version: 'v0.2',
+    date: '2026-05',
+    notes: [
+      'Added Filipino (Tagalog) language support',
+      'Fixed iOS keyboard-dismiss clearing the stop search input',
+      'Improved transfer routing (deprioritised BSB Bus Terminal as a transfer point, sorted by stop count)',
+      'Cleaned up stop name data for consistency',
+    ],
+  },
+  {
+    version: 'v0.1',
+    date: '2026-05',
+    notes: [
+      'Rebuilt Better Bus Brunei as a Next.js + MUI web app',
+      'Added PWA support (installable, works offline)',
+    ],
+  },
+]
+
 export type TranslationKey =
   | 'subtitle' | 'tab_plan' | 'tab_browse'
   | 'origin' | 'destination' | 'select_stop' | 'swap' | 'find_route'
@@ -26,7 +83,7 @@ export type TranslationKey =
   | 'option' | 'direct' | 'transfer' | 'board_at' | 'alight_at'
   | 'stops_along' | 'stop_singular' | 'stop_plural' | 'transfer_at'
   | 'show_stops' | 'stop_label' | 'select_stop_browse' | 'routes_here'
-  | 'stop_seq' | 'view_map' | 'terminal_notice' | 'tab_map' | 'map_no_pins'
+  | 'stop_seq' | 'view_map' | 'terminal_notice' | 'tab_map' | 'map_no_pins' | 'tab_adopt' | 'tab_whatsnew'
   | 'favourites' | 'recent' | 'fare_adult' | 'fare_senior' | 'fare_child' | 'fare_infant' | 'fare_free' | 'service_hours' | 'service_closed'
 
 export type Translations = Record<TranslationKey, string>
@@ -63,6 +120,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB Bus Terminal is currently not in service.',
     tab_map:            'Map',
     map_no_pins:        'No stop locations yet. Be the first — use the Where am I? tab to submit your location.',
+    tab_adopt:          'Adopt-a-stop',
+    tab_whatsnew:       "What's New",
     favourites:         'Favourites',
     recent:             'Recent',
     fare_adult:         'Adult',
@@ -104,6 +163,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ Terminal Bas BSB kini tidak beroperasi.',
     tab_map:            'Peta',
     map_no_pins:        'Tiada lokasi perhentian lagi. Jadilah yang pertama — guna tab Di mana saya? untuk hantar lokasi anda.',
+    tab_adopt:          'Adopsi Perhentian',
+    tab_whatsnew:       'Apa Baharu',
     favourites:         'Kegemaran',
     recent:             'Terbaru',
     fare_adult:         'Dewasa',
@@ -145,6 +206,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB巴士总站目前停止运营。',
     tab_map:            '地图',
     map_no_pins:        '暂无站点位置。成为第一个贡献者——在"我在哪里？"标签提交您的位置。',
+    tab_adopt:          '认领站点',
+    tab_whatsnew:       '更新内容',
     favourites:         '收藏',
     recent:             '最近',
     fare_adult:         '成人',
@@ -186,6 +249,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB বাস টার্মিনাল বর্তমানে চালু নেই।',
     tab_map:            'মানচিত্র',
     map_no_pins:        'এখনও কোনো স্টপ লোকেশন নেই। প্রথম হন — আমি কোথায়? ট্যাব থেকে আপনার লোকেশন জমা দিন।',
+    tab_adopt:          'স্টপ গ্রহণ করুন',
+    tab_whatsnew:       'নতুন কী আছে',
     favourites:         'পছন্দের',
     recent:             'সাম্প্রতিক',
     fare_adult:         'প্রাপ্তবয়স্ক',
@@ -227,6 +292,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ BSB बस टर्मिनल वर्तमान में सेवा में नहीं है।',
     tab_map:            'मानचित्र',
     map_no_pins:        'अभी कोई स्टॉप स्थान नहीं है। पहले बनें — मैं कहाँ हूँ? टैब से अपना स्थान सबमिट करें।',
+    tab_adopt:          'स्टॉप अपनाएं',
+    tab_whatsnew:       'नया क्या है',
     favourites:         'पसंदीदा',
     recent:             'हाल का',
     fare_adult:         'वयस्क',
@@ -268,6 +335,8 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     terminal_notice:    '⚠ Ang BSB Bus Terminal ay kasalukuyang hindi nag-ooperate.',
     tab_map:            'Mapa',
     map_no_pins:        'Wala pang lokasyon ng himpilan. Maging una — gamitin ang Nasaan ako? tab para isumite ang iyong lokasyon.',
+    tab_adopt:          'Mag-ampon ng Himpilan',
+    tab_whatsnew:       'Mga Bago',
     favourites:         'Mga Paborito',
     recent:             'Kamakailang',
     fare_adult:         'Matanda',

@@ -44,4 +44,8 @@ export interface StopPin {
   stop_name: string
   lat: number
   lng: number
+  stop_code?: string
+  nickname?: string
+  has_shade?: boolean | null
+  photo_url?: string | null
 }
