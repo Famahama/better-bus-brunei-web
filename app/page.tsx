@@ -34,10 +34,12 @@ import { supabase } from '@/lib/supabase'
 import type { StopPin } from '@/lib/types'
 
 const StopMap = dynamic(() => import('@/components/StopMap'), { ssr: false })
+const LocationPicker = dynamic(() => import('@/components/LocationPicker'), { ssr: false })
 import { buildGraph } from '@/lib/gtfs'
 import { findRoute } from '@/lib/routing'
-import { TRANSLATIONS, getRouteColor, cleanHeadsign, stopFilterOptions, CHANGELOG } from '@/lib/constants'
-import type { Language, JourneyResult, Leg } from '@/lib/types'
+import { TRANSLATIONS, getRouteColor, cleanHeadsign, stopFilterOptions, normalizeStopSearch, CHANGELOG } from '@/lib/constants'
+import { distanceKm } from '@/lib/geo'
+import type { Language, JourneyResult, Leg, CommunityPost } from '@/lib/types'
 
 const LANGUAGES: Language[] = ['English', 'Melayu', '中文', 'বাংলা', 'हिन्दी', 'Filipino']
 const JPD_MAP_URL = 'https://www.jpd.gov.bn/SiteAssets/Site%20Pages/BRUNEI%20Bus%20Route/New%20Bus%20Route%20English%20Version.jpg'
@@ -163,6 +165,7 @@ function BetterBusApp() {
   const [browseInput, setBrowseInput] = useState('')
   const [shadedStops, setShadedStops] = useState<Set<string>>(new Set())
   const [pins, setPins] = useState<StopPin[]>([])
+  const [communityPosts, setCommunityPosts] = useState<CommunityPost[]>([])
   const [favourites, setFavourites] = useState<string[]>([])
   const [recentSearches, setRecentSearches] = useState<Array<{ origin: string; dest: string }>>([])
 
@@ -174,6 +177,7 @@ function BetterBusApp() {
   const [adoptPhoto, setAdoptPhoto] = useState<File | null>(null)
   const [adoptPhotoPreview, setAdoptPhotoPreview] = useState<string | null>(null)
   const [adoptLocState, setAdoptLocState] = useState<'idle' | 'getting' | 'error'>('idle')
+  const [adoptLocateTrigger, setAdoptLocateTrigger] = useState(0)
   const [adoptState, setAdoptState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
 
   const t = TRANSLATIONS[lang]
@@ -279,11 +283,19 @@ function BetterBusApp() {
       })
   }, [])
 
+  useEffect(() => {
+    supabase.from('community_posts')
+      .select('id, platform, post_url, image_url, caption, credit_name')
+      .order('created_at', { ascending: false })
+      .then(({ data }) => { if (data) setCommunityPosts(data) })
+  }, [])
+
   function handleAdoptGetLocation() {
     setAdoptLocState('getting')
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         setAdoptCoords({ lat: pos.coords.latitude, lng: pos.coords.longitude, accuracy: pos.coords.accuracy })
+        setAdoptLocateTrigger(n => n + 1)
         setAdoptLocState('idle')
       },
       () => setAdoptLocState('error'),
@@ -358,6 +370,16 @@ function BetterBusApp() {
       .map(e => ({ ...e, total: tripStops.get(e.trip_id)?.length ?? 0 }))
   }, [browseStop, stopRoutes, tripStops])
 
+  const adoptDuplicate = useMemo(() => {
+    const nameNorm = normalizeStopSearch(adoptStopName.trim())
+    for (const p of pins) {
+      const nameMatch = nameNorm.length > 2 && normalizeStopSearch(p.stop_name) === nameNorm
+      const close = adoptCoords && distanceKm([adoptCoords.lat, adoptCoords.lng], [p.lat, p.lng]) <= 0.03
+      if (nameMatch || close) return p
+    }
+    return null
+  }, [adoptStopName, adoptCoords, pins])
+
   return (
     <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
       <Container maxWidth='sm' sx={{ pb: 6 }}>
@@ -380,14 +402,26 @@ function BetterBusApp() {
           <Typography variant='caption' sx={{ display: 'block', mt: 0.25, opacity: 0.65, fontSize: '0.72rem' }}>🕐 {t.service_hours}</Typography>
         </Box>
 
+        {/* Disclaimer */}
+        <Box sx={{ bgcolor: '#1a1a00', border: '1px solid #3a3100', borderRadius: 2, px: 2, py: 1.5, mb: 3 }}>
+          <Typography variant='caption' sx={{ color: '#F5C518', display: 'block', lineHeight: 1.6, fontSize: '0.72rem' }}>
+            📋 {t.disclaimer}
+          </Typography>
+        </Box>
+
         {/* Tabs */}
-        <Tabs value={tab} onChange={(_, v) => setTab(v)}
-          sx={{ mb: 3, borderBottom: '1px solid #333', '& .MuiTabs-indicator': { bgcolor: 'primary.main' } }}>
-          <Tab label={t.tab_plan}   sx={{ color: tab === 0 ? 'primary.main' : 'text.secondary' }} />
-          <Tab label={t.tab_browse} sx={{ color: tab === 1 ? 'primary.main' : 'text.secondary' }} />
-          <Tab label={t.tab_map}    sx={{ color: tab === 2 ? 'primary.main' : 'text.secondary' }} />
-          <Tab label={t.tab_adopt}    sx={{ color: tab === 3 ? 'primary.main' : 'text.secondary' }} />
-          <Tab label={t.tab_whatsnew} sx={{ color: tab === 4 ? 'primary.main' : 'text.secondary' }} />
+        <Tabs orientation='vertical' value={tab} onChange={(_, v) => setTab(v)}
+          sx={{
+            mb: 3, width: '100%', '& .MuiTabs-indicator': { display: 'none' }, '& .MuiTabs-flexContainer': { gap: 1 },
+          }}>
+          {[t.tab_plan, t.tab_browse, t.tab_adopt, t.tab_whatsnew, t.tab_community].map((label, i) => (
+            <Tab key={label} label={label} sx={{
+              width: '100%', alignItems: 'flex-start', justifyContent: 'flex-start', textTransform: 'none',
+              borderRadius: 2, border: '1px solid', borderColor: tab === i ? 'primary.main' : '#333',
+              bgcolor: tab === i ? 'primary.main' : '#1A1A1A', color: tab === i ? '#0D0D0D !important' : 'text.secondary',
+              fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: '0.8rem', minHeight: 44, py: 1,
+            }} />
+          ))}
         </Tabs>
 
         {/* Plan a Journey */}
@@ -469,7 +503,21 @@ function BetterBusApp() {
         {/* Where am I? */}
         {tab === 1 && (
           <Box>
-            <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
+            <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: 'primary.main', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.65rem', display: 'block', mb: 1 }}>
+              {t.tab_map}
+            </Typography>
+            <StopMap
+              pins={pins}
+              onSelect={name => { setBrowseStop(name); setBrowseInput(name) }}
+            />
+            {pins.length === 0 && (
+              <Typography variant='caption' color='text.secondary'
+                sx={{ display: 'block', mt: 1.5, mb: 2, textAlign: 'center', lineHeight: 1.6 }}>
+                {t.map_no_pins}
+              </Typography>
+            )}
+
+            <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: 2, mb: 2 }}>
               <a href={JPD_MAP_URL} target='_blank' rel='noreferrer' style={{ color: '#F5C518', textDecoration: 'none', fontSize: '0.8rem' }}>
                 {t.view_map}
               </a>
@@ -555,31 +603,15 @@ function BetterBusApp() {
             <Divider sx={{ borderColor: '#222', mt: 4, mb: 2 }} />
 
             <Typography variant='caption' color='text.secondary'
-              onClick={() => { setAdoptStopName(browseStop ?? ''); setTab(3) }}
+              onClick={() => { setAdoptStopName(browseStop ?? ''); setTab(2) }}
               sx={{ cursor: 'pointer', textDecoration: 'underline', textDecorationStyle: 'dotted' }}>
               Don&apos;t see your stop, or have info to add? → Adopt-a-stop
             </Typography>
           </Box>
         )}
 
-        {/* Map */}
-        {tab === 2 && (
-          <Box>
-            <StopMap
-              pins={pins}
-              onSelect={name => { setBrowseStop(name); setBrowseInput(name); setTab(1) }}
-            />
-            {pins.length === 0 && (
-              <Typography variant='caption' color='text.secondary'
-                sx={{ display: 'block', mt: 2, textAlign: 'center', lineHeight: 1.6 }}>
-                {t.map_no_pins}
-              </Typography>
-            )}
-          </Box>
-        )}
-
         {/* Adopt-a-stop */}
-        {tab === 3 && (
+        {tab === 2 && (
           <Box>
             <Typography variant='body2' color='text.secondary' sx={{ mb: 2, lineHeight: 1.6 }}>
               Found a stop pole with a code on it (e.g. <strong style={{ color: '#E8E8E8' }}>BE31 - 050</strong>)?
@@ -630,29 +662,40 @@ function BetterBusApp() {
             <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mb: 1 }}>
               Location
             </Typography>
-            {!adoptCoords && (
-              <Button variant='outlined' size='small' startIcon={<MyLocationIcon />}
-                onClick={handleAdoptGetLocation}
-                disabled={adoptLocState === 'getting'}
-                sx={{ mb: 2, borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
-                {adoptLocState === 'getting' ? 'Getting your location...' : 'Use my location'}
-              </Button>
-            )}
-            {adoptCoords && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
-                <Typography variant='caption' color='text.secondary'>
-                  📍 {adoptCoords.lat.toFixed(5)}°N, {adoptCoords.lng.toFixed(5)}°E (±{Math.round(adoptCoords.accuracy)}m)
-                </Typography>
-                <Typography variant='caption' color='primary.main'
-                  onClick={handleAdoptGetLocation}
-                  sx={{ cursor: 'pointer', textDecoration: 'underline', textDecorationStyle: 'dotted' }}>
-                  Retry
-                </Typography>
-              </Box>
-            )}
+            <Button variant='outlined' size='small' startIcon={<MyLocationIcon />}
+              onClick={handleAdoptGetLocation}
+              disabled={adoptLocState === 'getting'}
+              sx={{ mb: 1.5, borderColor: '#333', color: 'text.secondary', borderRadius: 2, fontSize: '0.75rem' }}>
+              {adoptLocState === 'getting' ? 'Getting your location...' : adoptCoords ? 'Re-centre on my location' : 'Use my location'}
+            </Button>
             {adoptLocState === 'error' && (
-              <Alert severity='error' sx={{ mb: 2, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
+              <Alert severity='error' sx={{ mb: 1.5, bgcolor: '#2a0a0a', color: '#ff8a80', border: '1px solid #4a1a1a' }}>
                 Could not get location. Please ensure location access is enabled.
+              </Alert>
+            )}
+            <LocationPicker
+              position={adoptCoords ? [adoptCoords.lat, adoptCoords.lng] : null}
+              defaultCenter={[4.92, 114.95]}
+              flyToKey={adoptLocateTrigger}
+              onChange={([lat, lng]) => setAdoptCoords(prev => ({ lat, lng, accuracy: prev?.accuracy ?? 0 }))}
+            />
+            {adoptCoords && (
+              <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mt: 1, mb: 2 }}>
+                📍 {adoptCoords.lat.toFixed(5)}°N, {adoptCoords.lng.toFixed(5)}°E
+                {adoptCoords.accuracy > 0 ? ` (±${Math.round(adoptCoords.accuracy)}m)` : ''}
+              </Typography>
+            )}
+            {!adoptCoords && (
+              <Typography variant='caption' color='text.secondary' sx={{ display: 'block', mt: 1, mb: 2 }}>
+                No location set yet — tap the map above to drop a pin, or use the button.
+              </Typography>
+            )}
+
+            {adoptDuplicate && (
+              <Alert severity='info' sx={{ mb: 2, bgcolor: '#1a1a00', color: '#F5C518', border: '1px solid #3a3100' }}>
+                A stop named &quot;{adoptDuplicate.stop_name}&quot;
+                {adoptDuplicate.stop_code ? ` (code: ${adoptDuplicate.stop_code})` : ''} may already be adopted nearby.
+                You can still submit if this is a different pole.
               </Alert>
             )}
 
@@ -698,7 +741,7 @@ function BetterBusApp() {
         )}
 
         {/* What's New */}
-        {tab === 4 && (
+        {tab === 3 && (
           <Box>
             {CHANGELOG.map((entry, i) => (
               <Card key={entry.version} sx={{ mb: 2, bgcolor: '#1A1A1A' }}>
@@ -723,6 +766,39 @@ function BetterBusApp() {
           </Box>
         )}
 
+        {/* Community */}
+        {tab === 4 && (
+          <Box>
+            {communityPosts.length === 0 && (
+              <Typography variant='caption' color='text.secondary'
+                sx={{ display: 'block', mt: 2, textAlign: 'center', lineHeight: 1.6 }}>
+                {t.community_empty}
+              </Typography>
+            )}
+            {communityPosts.map(post => (
+              <Card key={post.id} sx={{ mb: 2, bgcolor: '#1A1A1A' }}>
+                {post.image_url && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={post.image_url} alt='' style={{ width: '100%', maxHeight: 320, objectFit: 'cover', display: 'block' }} />
+                )}
+                <CardContent>
+                  {post.caption && (
+                    <Typography variant='body2' sx={{ mb: 1, lineHeight: 1.5 }}>{post.caption}</Typography>
+                  )}
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    {post.credit_name && (
+                      <Typography variant='caption' color='text.secondary'>{post.credit_name}</Typography>
+                    )}
+                    <a href={post.post_url} target='_blank' rel='noreferrer' style={{ color: '#F5C518', textDecoration: 'none', fontSize: '0.75rem' }}>
+                      {t.community_view_post}
+                    </a>
+                  </Box>
+                </CardContent>
+              </Card>
+            ))}
+          </Box>
+        )}
+
         {/* Footer */}
         <Divider sx={{ mt: 5, mb: 3, borderColor: '#333' }} />
         <Box sx={{ textAlign: 'center' }}>
@@ -734,7 +810,7 @@ function BetterBusApp() {
             </a>
           </Typography>
           <Typography variant='caption' sx={{ fontFamily: 'var(--font-mono)', color: '#555', display: 'block', mt: 0.5, mb: 1.5 }}>
-            brubah.com/bus · v0.4
+            bus.brubah.com · v0.4
           </Typography>
           <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, flexWrap: 'wrap' }}>
             {[

@@ -19,7 +19,7 @@ export function cleanHeadsign(h: string): string {
   return String(h).replace(/^→+/, '').trim()
 }
 
-function normalizeStopSearch(s: string): string {
+export function normalizeStopSearch(s: string): string {
   return s.toLowerCase().replace(/\bjalan\b\.?/g, 'j.')
 }
 
@@ -83,7 +83,8 @@ export type TranslationKey =
   | 'option' | 'direct' | 'transfer' | 'board_at' | 'alight_at'
   | 'stops_along' | 'stop_singular' | 'stop_plural' | 'transfer_at'
   | 'show_stops' | 'stop_label' | 'select_stop_browse' | 'routes_here'
-  | 'stop_seq' | 'view_map' | 'terminal_notice' | 'tab_map' | 'map_no_pins' | 'tab_adopt' | 'tab_whatsnew'
+  | 'stop_seq' | 'view_map' | 'terminal_notice' | 'tab_map' | 'map_no_pins' | 'tab_adopt' | 'tab_whatsnew' | 'disclaimer'
+  | 'tab_community' | 'community_empty' | 'community_view_post'
   | 'favourites' | 'recent' | 'fare_adult' | 'fare_senior' | 'fare_child' | 'fare_infant' | 'fare_free' | 'service_hours' | 'service_closed'
 
 export type Translations = Record<TranslationKey, string>
@@ -122,6 +123,10 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     map_no_pins:        'No stop locations yet. Be the first — use the Where am I? tab to submit your location.',
     tab_adopt:          'Adopt-a-stop',
     tab_whatsnew:       "What's New",
+    disclaimer:         "Built by riders, for riders — and still a work in progress. Routes follow JPD's official route cards, but some stops aren't mapped yet, so please double-check with your driver and help fill the gaps via Adopt-a-stop. Provided as-is, with no guarantee of accuracy.",
+    tab_community:      'Community',
+    community_empty:    "No shoutouts yet — tag @brubah on Instagram and you might show up here!",
+    community_view_post: 'View post →',
     favourites:         'Favourites',
     recent:             'Recent',
     fare_adult:         'Adult',
@@ -165,6 +170,10 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     map_no_pins:        'Tiada lokasi perhentian lagi. Jadilah yang pertama — guna tab Di mana saya? untuk hantar lokasi anda.',
     tab_adopt:          'Adopsi Perhentian',
     tab_whatsnew:       'Apa Baharu',
+    disclaimer:         'Dibina oleh penumpang, untuk penumpang — dan masih dalam pembinaan. Laluan berdasarkan kad laluan rasmi JPD, tetapi sesetengah perhentian belum dipetakan, jadi sila semak dengan pemandu bas dan bantu lengkapkan maklumat melalui Adopt-a-stop. Disediakan seadanya, tanpa jaminan ketepatan.',
+    tab_community:      'Komuniti',
+    community_empty:    'Belum ada sebutan — tag @brubah di Instagram dan anda mungkin terpapar di sini!',
+    community_view_post: 'Lihat siaran →',
     favourites:         'Kegemaran',
     recent:             'Terbaru',
     fare_adult:         'Dewasa',
@@ -208,6 +217,10 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     map_no_pins:        '暂无站点位置。成为第一个贡献者——在"我在哪里？"标签提交您的位置。',
     tab_adopt:          '认领站点',
     tab_whatsnew:       '更新内容',
+    disclaimer:         '由乘客为乘客打造——目前仍在完善中。路线依据JPD官方路线卡,但部分站点尚未标注,请与司机确认,并通过"认领站点"协助补充资料。本应用按现状提供,不保证完全准确。',
+    tab_community:      '社区',
+    community_empty:    '暂无分享——在Instagram上标记 @brubah,也许你就会出现在这里!',
+    community_view_post: '查看帖子 →',
     favourites:         '收藏',
     recent:             '最近',
     fare_adult:         '成人',
@@ -251,6 +264,10 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     map_no_pins:        'এখনও কোনো স্টপ লোকেশন নেই। প্রথম হন — আমি কোথায়? ট্যাব থেকে আপনার লোকেশন জমা দিন।',
     tab_adopt:          'স্টপ গ্রহণ করুন',
     tab_whatsnew:       'নতুন কী আছে',
+    disclaimer:         "যাত্রীদের দ্বারা, যাত্রীদের জন্য তৈরি — এবং এখনও কাজ চলছে। রুটগুলি JPD-র অফিসিয়াল রুট কার্ডের উপর ভিত্তি করে তৈরি, কিন্তু কিছু স্টপ এখনও ম্যাপ করা হয়নি, তাই ড্রাইভারের সাথে যাচাই করুন এবং 'স্টপ গ্রহণ করুন'-এর মাধ্যমে তথ্য যুক্ত করতে সাহায্য করুন। এটি যেমন আছে তেমনই দেওয়া হচ্ছে, নির্ভুলতার কোনো নিশ্চয়তা নেই।",
+    tab_community:      'কমিউনিটি',
+    community_empty:    'এখনও কোনো শাউটআউট নেই — ইনস্টাগ্রামে @brubah ট্যাগ করুন, আপনিও এখানে দেখা যেতে পারেন!',
+    community_view_post: 'পোস্ট দেখুন →',
     favourites:         'পছন্দের',
     recent:             'সাম্প্রতিক',
     fare_adult:         'প্রাপ্তবয়স্ক',
@@ -294,6 +311,10 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     map_no_pins:        'अभी कोई स्टॉप स्थान नहीं है। पहले बनें — मैं कहाँ हूँ? टैब से अपना स्थान सबमिट करें।',
     tab_adopt:          'स्टॉप अपनाएं',
     tab_whatsnew:       'नया क्या है',
+    disclaimer:         "यात्रियों द्वारा, यात्रियों के लिए बनाया गया — और अभी भी निर्माणाधीन है। रूट JPD के आधिकारिक रूट कार्ड पर आधारित हैं, लेकिन कुछ स्टॉप अभी मैप नहीं हुए हैं, इसलिए कृपया ड्राइवर से पुष्टि करें और 'स्टॉप अपनाएं' के माध्यम से जानकारी जोड़ने में मदद करें। यह जैसा है वैसा ही प्रदान किया गया है, सटीकता की कोई गारंटी नहीं है।",
+    tab_community:      'समुदाय',
+    community_empty:    'अभी तक कोई शाउटआउट नहीं — इंस्टाग्राम पर @brubah को टैग करें, आप भी यहाँ दिख सकते हैं!',
+    community_view_post: 'पोस्ट देखें →',
     favourites:         'पसंदीदा',
     recent:             'हाल का',
     fare_adult:         'वयस्क',
@@ -337,6 +358,10 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     map_no_pins:        'Wala pang lokasyon ng himpilan. Maging una — gamitin ang Nasaan ako? tab para isumite ang iyong lokasyon.',
     tab_adopt:          'Mag-ampon ng Himpilan',
     tab_whatsnew:       'Mga Bago',
+    disclaimer:         'Ginawa ng mga pasahero, para sa mga pasahero — at patuloy pa ring ginagawa. Ang mga ruta ay batay sa opisyal na route cards ng JPD, ngunit may mga himpilan na hindi pa na-map, kaya mangyaring kumpirmahin sa drayber at tulungan kaming punan ang impormasyon gamit ang Mag-ampon ng Himpilan. Ibinibigay ito as-is, walang garantiya sa katumpakan.',
+    tab_community:      'Komunidad',
+    community_empty:    'Walang shoutout pa — i-tag ang @brubah sa Instagram at maaaring lumitaw ka rito!',
+    community_view_post: 'Tingnan ang post →',
     favourites:         'Mga Paborito',
     recent:             'Kamakailang',
     fare_adult:         'Matanda',

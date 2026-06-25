@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup, Circle, useMap } from 'react-le
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { StopPin } from '@/lib/types'
+import { distanceKm } from '@/lib/geo'
 
 const stopIcon = L.divIcon({
   html: '<div style="width:11px;height:11px;background:#F5C518;border:2px solid #0D0D0D;border-radius:50%;box-shadow:0 0 6px rgba(245,197,24,0.7)"></div>',
@@ -15,18 +16,6 @@ const stopIcon = L.divIcon({
 })
 
 const NEARBY_RADIUS_KM = 1
-
-function distanceKm(a: [number, number], b: [number, number]): number {
-  const R = 6371
-  const dLat = (b[0] - a[0]) * Math.PI / 180
-  const dLng = (b[1] - a[1]) * Math.PI / 180
-  const lat1 = a[0] * Math.PI / 180
-  const lat2 = b[0] * Math.PI / 180
-  const sinDLat = Math.sin(dLat / 2)
-  const sinDLng = Math.sin(dLng / 2)
-  const h = sinDLat * sinDLat + Math.cos(lat1) * Math.cos(lat2) * sinDLng * sinDLng
-  return 2 * R * Math.asin(Math.sqrt(h))
-}
 
 function LocationMarker({ onLocate }: { onLocate: (pos: [number, number]) => void }) {
   const [pos, setPos] = useState<[number, number] | null>(null)

@@ -49,3 +49,12 @@ export interface StopPin {
   has_shade?: boolean | null
   photo_url?: string | null
 }
+
+export interface CommunityPost {
+  id: string
+  platform: string
+  post_url: string
+  image_url: string | null
+  caption: string | null
+  credit_name: string | null
+}
